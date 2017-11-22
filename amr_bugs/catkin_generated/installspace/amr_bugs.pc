@@ -1,0 +1,8 @@
+prefix=/home/kishaan/catkin_ws/install
+
+Name: amr_bugs
+Description: Description of amr_bugs
+Version: 1.0.0
+Cflags: -I/home/kishaan/catkin_ws/install/include
+Libs: -L/home/kishaan/catkin_ws/install/lib 
+Requires: roscpp rospy smach smach_ros smach_viewer dynamic_reconfigure actionlib tf std_srvs geometry_msgs amr_msgs amr_srvs amr_stage amr_perception amr_navigation

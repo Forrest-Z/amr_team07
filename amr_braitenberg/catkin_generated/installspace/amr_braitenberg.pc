@@ -1,0 +1,8 @@
+prefix=/home/kishaan/catkin_ws/install
+
+Name: amr_braitenberg
+Description: Description of amr_braitenberg
+Version: 1.0.0
+Cflags: -I/home/kishaan/catkin_ws/install/include
+Libs: -L/home/kishaan/catkin_ws/install/lib 
+Requires: roscpp dynamic_reconfigure amr_msgs amr_srvs amr_stage

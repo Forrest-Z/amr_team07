@@ -1,0 +1,8 @@
+prefix=/home/kishaan/catkin_ws/install
+
+Name: amr_srvs
+Description: Description of amr_srvs
+Version: 1.0.0
+Cflags: -I/home/kishaan/catkin_ws/install/include
+Libs: -L/home/kishaan/catkin_ws/install/lib 
+Requires: geometry_msgs amr_msgs

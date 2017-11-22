@@ -1,0 +1,8 @@
+prefix=/home/kishaan/catkin_ws/install
+
+Name: amr_msgs
+Description: Description of amr_msgs
+Version: 1.0.0
+Cflags: -I/home/kishaan/catkin_ws/install/include
+Libs: -L/home/kishaan/catkin_ws/install/lib 
+Requires: actionlib actionlib_msgs sensor_msgs geometry_msgs nav_msgs

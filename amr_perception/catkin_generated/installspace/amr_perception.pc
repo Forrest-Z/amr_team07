@@ -1,0 +1,8 @@
+prefix=/home/kishaan/catkin_ws/install
+
+Name: amr_perception
+Description: Description of amr_perception
+Version: 1.0.0
+Cflags: -I/home/kishaan/catkin_ws/install/include
+Libs: -L/home/kishaan/catkin_ws/install/lib 
+Requires: roscpp geometry_msgs dynamic_reconfigure amr_msgs amr_srvs sensor_msgs roscpp geometry_msgs dynamic_reconfigure amr_msgs amr_srvs sensor_msgs

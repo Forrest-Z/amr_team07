@@ -1,0 +1,8 @@
+prefix=/home/kishaan/catkin_ws/install
+
+Name: amr_stage_worlds
+Description: Description of amr_stage_worlds
+Version: 1.0.0
+Cflags: 
+Libs: -L/home/kishaan/catkin_ws/install/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/kishaan/catkin_ws/install
+
+Name: amr_binaries
+Description: Description of amr_binaries
+Version: 1.0.0
+Cflags: 
+Libs: -L/home/kishaan/catkin_ws/install/lib 
+Requires: 
