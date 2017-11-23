@@ -67,7 +67,7 @@ set(amr_bugs_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(amr_bugs_SOURCE_PREFIX /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_bugs)
+  set(amr_bugs_SOURCE_PREFIX /home/kishaan/catkin_ws/src/team07/amr_bugs)
   set(amr_bugs_DEVEL_PREFIX /home/kishaan/catkin_ws/devel)
   set(amr_bugs_INSTALL_PREFIX "")
   set(amr_bugs_PREFIX ${amr_bugs_DEVEL_PREFIX})

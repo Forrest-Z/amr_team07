@@ -1,4 +1,4 @@
-# Install script for directory: /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_stage
+# Install script for directory: /home/kishaan/catkin_ws/src/team07/amr_stage
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -49,17 +49,17 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_stage/catkin_generated/installspace/amr_stage.pc")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/kishaan/catkin_ws/src/team07/amr_stage/catkin_generated/installspace/amr_stage.pc")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/amr_stage/cmake" TYPE FILE FILES
-    "/home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_stage/catkin_generated/installspace/amr_stageConfig.cmake"
-    "/home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_stage/catkin_generated/installspace/amr_stageConfig-version.cmake"
+    "/home/kishaan/catkin_ws/src/team07/amr_stage/catkin_generated/installspace/amr_stageConfig.cmake"
+    "/home/kishaan/catkin_ws/src/team07/amr_stage/catkin_generated/installspace/amr_stageConfig-version.cmake"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/amr_stage" TYPE FILE FILES "/home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_stage/package.xml")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/amr_stage" TYPE FILE FILES "/home/kishaan/catkin_ws/src/team07/amr_stage/package.xml")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

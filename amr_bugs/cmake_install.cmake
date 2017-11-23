@@ -1,4 +1,4 @@
-# Install script for directory: /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_bugs
+# Install script for directory: /home/kishaan/catkin_ws/src/team07/amr_bugs
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,7 +33,7 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  INCLUDE("/home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_bugs/catkin_generated/safe_execute_install.cmake")
+  INCLUDE("/home/kishaan/catkin_ws/src/team07/amr_bugs/catkin_generated/safe_execute_install.cmake")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -49,17 +49,17 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_bugs/catkin_generated/installspace/amr_bugs.pc")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/kishaan/catkin_ws/src/team07/amr_bugs/catkin_generated/installspace/amr_bugs.pc")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/amr_bugs/cmake" TYPE FILE FILES
-    "/home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_bugs/catkin_generated/installspace/amr_bugsConfig.cmake"
-    "/home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_bugs/catkin_generated/installspace/amr_bugsConfig-version.cmake"
+    "/home/kishaan/catkin_ws/src/team07/amr_bugs/catkin_generated/installspace/amr_bugsConfig.cmake"
+    "/home/kishaan/catkin_ws/src/team07/amr_bugs/catkin_generated/installspace/amr_bugsConfig-version.cmake"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/amr_bugs" TYPE FILE FILES "/home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_bugs/package.xml")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/amr_bugs" TYPE FILE FILES "/home/kishaan/catkin_ws/src/team07/amr_bugs/package.xml")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

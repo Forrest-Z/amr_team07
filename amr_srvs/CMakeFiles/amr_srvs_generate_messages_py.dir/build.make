@@ -43,21 +43,53 @@ CMAKE_BINARY_DIR = /home/kishaan/catkin_ws/src
 # Utility rule file for amr_srvs_generate_messages_py.
 
 # Include the progress variables for this target.
-include ws17-kkisha2s/amr_srvs/CMakeFiles/amr_srvs_generate_messages_py.dir/progress.make
+include team07/amr_srvs/CMakeFiles/amr_srvs_generate_messages_py.dir/progress.make
 
-ws17-kkisha2s/amr_srvs/CMakeFiles/amr_srvs_generate_messages_py: /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_PlanPath.py
-ws17-kkisha2s/amr_srvs/CMakeFiles/amr_srvs_generate_messages_py: /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_GetMultiplePoseLikelihood.py
-ws17-kkisha2s/amr_srvs/CMakeFiles/amr_srvs_generate_messages_py: /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_GetPoseLikelihood.py
-ws17-kkisha2s/amr_srvs/CMakeFiles/amr_srvs_generate_messages_py: /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_SwitchRanger.py
-ws17-kkisha2s/amr_srvs/CMakeFiles/amr_srvs_generate_messages_py: /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_IsLineSegmentFree.py
-ws17-kkisha2s/amr_srvs/CMakeFiles/amr_srvs_generate_messages_py: /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_IsPointFree.py
-ws17-kkisha2s/amr_srvs/CMakeFiles/amr_srvs_generate_messages_py: /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_GetNearestOccupiedPointInCone.py
-ws17-kkisha2s/amr_srvs/CMakeFiles/amr_srvs_generate_messages_py: /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_GetRangers.py
-ws17-kkisha2s/amr_srvs/CMakeFiles/amr_srvs_generate_messages_py: /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_GetNearestOccupiedPointOnBeam.py
-ws17-kkisha2s/amr_srvs/CMakeFiles/amr_srvs_generate_messages_py: /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/__init__.py
+team07/amr_srvs/CMakeFiles/amr_srvs_generate_messages_py: /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_GetPoseLikelihood.py
+team07/amr_srvs/CMakeFiles/amr_srvs_generate_messages_py: /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_IsPointFree.py
+team07/amr_srvs/CMakeFiles/amr_srvs_generate_messages_py: /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_GetNearestOccupiedPointInCone.py
+team07/amr_srvs/CMakeFiles/amr_srvs_generate_messages_py: /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_SwitchRanger.py
+team07/amr_srvs/CMakeFiles/amr_srvs_generate_messages_py: /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_PlanPath.py
+team07/amr_srvs/CMakeFiles/amr_srvs_generate_messages_py: /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_GetMultiplePoseLikelihood.py
+team07/amr_srvs/CMakeFiles/amr_srvs_generate_messages_py: /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_IsLineSegmentFree.py
+team07/amr_srvs/CMakeFiles/amr_srvs_generate_messages_py: /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_GetNearestOccupiedPointOnBeam.py
+team07/amr_srvs/CMakeFiles/amr_srvs_generate_messages_py: /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_GetRangers.py
+team07/amr_srvs/CMakeFiles/amr_srvs_generate_messages_py: /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/__init__.py
+
+/home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_GetPoseLikelihood.py: /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/gensrv_py.py
+/home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_GetPoseLikelihood.py: team07/amr_srvs/srv/GetPoseLikelihood.srv
+/home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_GetPoseLikelihood.py: /opt/ros/indigo/share/geometry_msgs/cmake/../msg/Point.msg
+/home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_GetPoseLikelihood.py: /opt/ros/indigo/share/geometry_msgs/cmake/../msg/PoseStamped.msg
+/home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_GetPoseLikelihood.py: /opt/ros/indigo/share/geometry_msgs/cmake/../msg/Quaternion.msg
+/home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_GetPoseLikelihood.py: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
+/home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_GetPoseLikelihood.py: /opt/ros/indigo/share/geometry_msgs/cmake/../msg/Pose.msg
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kishaan/catkin_ws/src/CMakeFiles $(CMAKE_PROGRESS_1)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python code from SRV amr_srvs/GetPoseLikelihood"
+	cd /home/kishaan/catkin_ws/src/team07/amr_srvs && ../../catkin_generated/env_cached.sh /home/kishaan/anaconda2/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/kishaan/catkin_ws/src/team07/amr_srvs/srv/GetPoseLikelihood.srv -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iamr_msgs:/home/kishaan/catkin_ws/src/team07/amr_msgs/msg -Iamr_msgs:/home/kishaan/catkin_ws/devel/share/amr_msgs/msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p amr_srvs -o /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv
+
+/home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_IsPointFree.py: /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/gensrv_py.py
+/home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_IsPointFree.py: team07/amr_srvs/srv/IsPointFree.srv
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kishaan/catkin_ws/src/CMakeFiles $(CMAKE_PROGRESS_2)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python code from SRV amr_srvs/IsPointFree"
+	cd /home/kishaan/catkin_ws/src/team07/amr_srvs && ../../catkin_generated/env_cached.sh /home/kishaan/anaconda2/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/kishaan/catkin_ws/src/team07/amr_srvs/srv/IsPointFree.srv -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iamr_msgs:/home/kishaan/catkin_ws/src/team07/amr_msgs/msg -Iamr_msgs:/home/kishaan/catkin_ws/devel/share/amr_msgs/msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p amr_srvs -o /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv
+
+/home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_GetNearestOccupiedPointInCone.py: /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/gensrv_py.py
+/home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_GetNearestOccupiedPointInCone.py: team07/amr_srvs/srv/GetNearestOccupiedPointInCone.srv
+/home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_GetNearestOccupiedPointInCone.py: team07/amr_msgs/msg/Cone.msg
+/home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_GetNearestOccupiedPointInCone.py: /opt/ros/indigo/share/geometry_msgs/cmake/../msg/Point.msg
+/home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_GetNearestOccupiedPointInCone.py: /opt/ros/indigo/share/geometry_msgs/cmake/../msg/Pose2D.msg
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kishaan/catkin_ws/src/CMakeFiles $(CMAKE_PROGRESS_3)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python code from SRV amr_srvs/GetNearestOccupiedPointInCone"
+	cd /home/kishaan/catkin_ws/src/team07/amr_srvs && ../../catkin_generated/env_cached.sh /home/kishaan/anaconda2/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/kishaan/catkin_ws/src/team07/amr_srvs/srv/GetNearestOccupiedPointInCone.srv -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iamr_msgs:/home/kishaan/catkin_ws/src/team07/amr_msgs/msg -Iamr_msgs:/home/kishaan/catkin_ws/devel/share/amr_msgs/msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p amr_srvs -o /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv
+
+/home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_SwitchRanger.py: /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/gensrv_py.py
+/home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_SwitchRanger.py: team07/amr_srvs/srv/SwitchRanger.srv
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kishaan/catkin_ws/src/CMakeFiles $(CMAKE_PROGRESS_4)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python code from SRV amr_srvs/SwitchRanger"
+	cd /home/kishaan/catkin_ws/src/team07/amr_srvs && ../../catkin_generated/env_cached.sh /home/kishaan/anaconda2/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/kishaan/catkin_ws/src/team07/amr_srvs/srv/SwitchRanger.srv -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iamr_msgs:/home/kishaan/catkin_ws/src/team07/amr_msgs/msg -Iamr_msgs:/home/kishaan/catkin_ws/devel/share/amr_msgs/msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p amr_srvs -o /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv
 
 /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_PlanPath.py: /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/gensrv_py.py
-/home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_PlanPath.py: ws17-kkisha2s/amr_srvs/srv/PlanPath.srv
+/home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_PlanPath.py: team07/amr_srvs/srv/PlanPath.srv
 /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_PlanPath.py: /opt/ros/indigo/share/geometry_msgs/cmake/../msg/Point.msg
 /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_PlanPath.py: /opt/ros/indigo/share/geometry_msgs/cmake/../msg/Quaternion.msg
 /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_PlanPath.py: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
@@ -65,110 +97,78 @@ ws17-kkisha2s/amr_srvs/CMakeFiles/amr_srvs_generate_messages_py: /home/kishaan/c
 /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_PlanPath.py: /opt/ros/indigo/share/geometry_msgs/cmake/../msg/PoseStamped.msg
 /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_PlanPath.py: /opt/ros/indigo/share/nav_msgs/cmake/../msg/Path.msg
 /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_PlanPath.py: /opt/ros/indigo/share/geometry_msgs/cmake/../msg/Pose.msg
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kishaan/catkin_ws/src/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kishaan/catkin_ws/src/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python code from SRV amr_srvs/PlanPath"
-	cd /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_srvs && ../../catkin_generated/env_cached.sh /home/kishaan/anaconda2/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_srvs/srv/PlanPath.srv -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iamr_msgs:/home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_msgs/msg -Iamr_msgs:/home/kishaan/catkin_ws/devel/share/amr_msgs/msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p amr_srvs -o /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv
+	cd /home/kishaan/catkin_ws/src/team07/amr_srvs && ../../catkin_generated/env_cached.sh /home/kishaan/anaconda2/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/kishaan/catkin_ws/src/team07/amr_srvs/srv/PlanPath.srv -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iamr_msgs:/home/kishaan/catkin_ws/src/team07/amr_msgs/msg -Iamr_msgs:/home/kishaan/catkin_ws/devel/share/amr_msgs/msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p amr_srvs -o /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv
 
 /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_GetMultiplePoseLikelihood.py: /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/gensrv_py.py
-/home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_GetMultiplePoseLikelihood.py: ws17-kkisha2s/amr_srvs/srv/GetMultiplePoseLikelihood.srv
+/home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_GetMultiplePoseLikelihood.py: team07/amr_srvs/srv/GetMultiplePoseLikelihood.srv
 /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_GetMultiplePoseLikelihood.py: /opt/ros/indigo/share/geometry_msgs/cmake/../msg/Point.msg
 /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_GetMultiplePoseLikelihood.py: /opt/ros/indigo/share/geometry_msgs/cmake/../msg/PoseStamped.msg
 /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_GetMultiplePoseLikelihood.py: /opt/ros/indigo/share/geometry_msgs/cmake/../msg/Quaternion.msg
 /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_GetMultiplePoseLikelihood.py: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
 /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_GetMultiplePoseLikelihood.py: /opt/ros/indigo/share/geometry_msgs/cmake/../msg/Pose.msg
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kishaan/catkin_ws/src/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kishaan/catkin_ws/src/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python code from SRV amr_srvs/GetMultiplePoseLikelihood"
-	cd /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_srvs && ../../catkin_generated/env_cached.sh /home/kishaan/anaconda2/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_srvs/srv/GetMultiplePoseLikelihood.srv -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iamr_msgs:/home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_msgs/msg -Iamr_msgs:/home/kishaan/catkin_ws/devel/share/amr_msgs/msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p amr_srvs -o /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv
-
-/home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_GetPoseLikelihood.py: /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/gensrv_py.py
-/home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_GetPoseLikelihood.py: ws17-kkisha2s/amr_srvs/srv/GetPoseLikelihood.srv
-/home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_GetPoseLikelihood.py: /opt/ros/indigo/share/geometry_msgs/cmake/../msg/Point.msg
-/home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_GetPoseLikelihood.py: /opt/ros/indigo/share/geometry_msgs/cmake/../msg/PoseStamped.msg
-/home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_GetPoseLikelihood.py: /opt/ros/indigo/share/geometry_msgs/cmake/../msg/Quaternion.msg
-/home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_GetPoseLikelihood.py: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
-/home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_GetPoseLikelihood.py: /opt/ros/indigo/share/geometry_msgs/cmake/../msg/Pose.msg
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kishaan/catkin_ws/src/CMakeFiles $(CMAKE_PROGRESS_3)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python code from SRV amr_srvs/GetPoseLikelihood"
-	cd /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_srvs && ../../catkin_generated/env_cached.sh /home/kishaan/anaconda2/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_srvs/srv/GetPoseLikelihood.srv -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iamr_msgs:/home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_msgs/msg -Iamr_msgs:/home/kishaan/catkin_ws/devel/share/amr_msgs/msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p amr_srvs -o /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv
-
-/home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_SwitchRanger.py: /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/gensrv_py.py
-/home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_SwitchRanger.py: ws17-kkisha2s/amr_srvs/srv/SwitchRanger.srv
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kishaan/catkin_ws/src/CMakeFiles $(CMAKE_PROGRESS_4)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python code from SRV amr_srvs/SwitchRanger"
-	cd /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_srvs && ../../catkin_generated/env_cached.sh /home/kishaan/anaconda2/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_srvs/srv/SwitchRanger.srv -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iamr_msgs:/home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_msgs/msg -Iamr_msgs:/home/kishaan/catkin_ws/devel/share/amr_msgs/msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p amr_srvs -o /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv
+	cd /home/kishaan/catkin_ws/src/team07/amr_srvs && ../../catkin_generated/env_cached.sh /home/kishaan/anaconda2/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/kishaan/catkin_ws/src/team07/amr_srvs/srv/GetMultiplePoseLikelihood.srv -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iamr_msgs:/home/kishaan/catkin_ws/src/team07/amr_msgs/msg -Iamr_msgs:/home/kishaan/catkin_ws/devel/share/amr_msgs/msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p amr_srvs -o /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv
 
 /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_IsLineSegmentFree.py: /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/gensrv_py.py
-/home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_IsLineSegmentFree.py: ws17-kkisha2s/amr_srvs/srv/IsLineSegmentFree.srv
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kishaan/catkin_ws/src/CMakeFiles $(CMAKE_PROGRESS_5)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python code from SRV amr_srvs/IsLineSegmentFree"
-	cd /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_srvs && ../../catkin_generated/env_cached.sh /home/kishaan/anaconda2/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_srvs/srv/IsLineSegmentFree.srv -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iamr_msgs:/home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_msgs/msg -Iamr_msgs:/home/kishaan/catkin_ws/devel/share/amr_msgs/msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p amr_srvs -o /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv
-
-/home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_IsPointFree.py: /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/gensrv_py.py
-/home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_IsPointFree.py: ws17-kkisha2s/amr_srvs/srv/IsPointFree.srv
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kishaan/catkin_ws/src/CMakeFiles $(CMAKE_PROGRESS_6)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python code from SRV amr_srvs/IsPointFree"
-	cd /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_srvs && ../../catkin_generated/env_cached.sh /home/kishaan/anaconda2/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_srvs/srv/IsPointFree.srv -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iamr_msgs:/home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_msgs/msg -Iamr_msgs:/home/kishaan/catkin_ws/devel/share/amr_msgs/msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p amr_srvs -o /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv
-
-/home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_GetNearestOccupiedPointInCone.py: /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/gensrv_py.py
-/home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_GetNearestOccupiedPointInCone.py: ws17-kkisha2s/amr_srvs/srv/GetNearestOccupiedPointInCone.srv
-/home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_GetNearestOccupiedPointInCone.py: ws17-kkisha2s/amr_msgs/msg/Cone.msg
-/home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_GetNearestOccupiedPointInCone.py: /opt/ros/indigo/share/geometry_msgs/cmake/../msg/Point.msg
-/home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_GetNearestOccupiedPointInCone.py: /opt/ros/indigo/share/geometry_msgs/cmake/../msg/Pose2D.msg
+/home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_IsLineSegmentFree.py: team07/amr_srvs/srv/IsLineSegmentFree.srv
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/kishaan/catkin_ws/src/CMakeFiles $(CMAKE_PROGRESS_7)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python code from SRV amr_srvs/GetNearestOccupiedPointInCone"
-	cd /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_srvs && ../../catkin_generated/env_cached.sh /home/kishaan/anaconda2/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_srvs/srv/GetNearestOccupiedPointInCone.srv -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iamr_msgs:/home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_msgs/msg -Iamr_msgs:/home/kishaan/catkin_ws/devel/share/amr_msgs/msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p amr_srvs -o /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv
-
-/home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_GetRangers.py: /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/gensrv_py.py
-/home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_GetRangers.py: ws17-kkisha2s/amr_srvs/srv/GetRangers.srv
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kishaan/catkin_ws/src/CMakeFiles $(CMAKE_PROGRESS_8)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python code from SRV amr_srvs/GetRangers"
-	cd /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_srvs && ../../catkin_generated/env_cached.sh /home/kishaan/anaconda2/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_srvs/srv/GetRangers.srv -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iamr_msgs:/home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_msgs/msg -Iamr_msgs:/home/kishaan/catkin_ws/devel/share/amr_msgs/msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p amr_srvs -o /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python code from SRV amr_srvs/IsLineSegmentFree"
+	cd /home/kishaan/catkin_ws/src/team07/amr_srvs && ../../catkin_generated/env_cached.sh /home/kishaan/anaconda2/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/kishaan/catkin_ws/src/team07/amr_srvs/srv/IsLineSegmentFree.srv -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iamr_msgs:/home/kishaan/catkin_ws/src/team07/amr_msgs/msg -Iamr_msgs:/home/kishaan/catkin_ws/devel/share/amr_msgs/msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p amr_srvs -o /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv
 
 /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_GetNearestOccupiedPointOnBeam.py: /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/gensrv_py.py
-/home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_GetNearestOccupiedPointOnBeam.py: ws17-kkisha2s/amr_srvs/srv/GetNearestOccupiedPointOnBeam.srv
+/home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_GetNearestOccupiedPointOnBeam.py: team07/amr_srvs/srv/GetNearestOccupiedPointOnBeam.srv
 /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_GetNearestOccupiedPointOnBeam.py: /opt/ros/indigo/share/geometry_msgs/cmake/../msg/Point.msg
 /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_GetNearestOccupiedPointOnBeam.py: /opt/ros/indigo/share/geometry_msgs/cmake/../msg/Pose2D.msg
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kishaan/catkin_ws/src/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kishaan/catkin_ws/src/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python code from SRV amr_srvs/GetNearestOccupiedPointOnBeam"
-	cd /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_srvs && ../../catkin_generated/env_cached.sh /home/kishaan/anaconda2/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_srvs/srv/GetNearestOccupiedPointOnBeam.srv -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iamr_msgs:/home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_msgs/msg -Iamr_msgs:/home/kishaan/catkin_ws/devel/share/amr_msgs/msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p amr_srvs -o /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv
+	cd /home/kishaan/catkin_ws/src/team07/amr_srvs && ../../catkin_generated/env_cached.sh /home/kishaan/anaconda2/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/kishaan/catkin_ws/src/team07/amr_srvs/srv/GetNearestOccupiedPointOnBeam.srv -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iamr_msgs:/home/kishaan/catkin_ws/src/team07/amr_msgs/msg -Iamr_msgs:/home/kishaan/catkin_ws/devel/share/amr_msgs/msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p amr_srvs -o /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv
+
+/home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_GetRangers.py: /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/gensrv_py.py
+/home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_GetRangers.py: team07/amr_srvs/srv/GetRangers.srv
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kishaan/catkin_ws/src/CMakeFiles $(CMAKE_PROGRESS_9)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python code from SRV amr_srvs/GetRangers"
+	cd /home/kishaan/catkin_ws/src/team07/amr_srvs && ../../catkin_generated/env_cached.sh /home/kishaan/anaconda2/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/kishaan/catkin_ws/src/team07/amr_srvs/srv/GetRangers.srv -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iamr_msgs:/home/kishaan/catkin_ws/src/team07/amr_msgs/msg -Iamr_msgs:/home/kishaan/catkin_ws/devel/share/amr_msgs/msg -Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p amr_srvs -o /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv
 
 /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/__init__.py: /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py
-/home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/__init__.py: /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_PlanPath.py
-/home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/__init__.py: /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_GetMultiplePoseLikelihood.py
 /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/__init__.py: /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_GetPoseLikelihood.py
-/home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/__init__.py: /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_SwitchRanger.py
-/home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/__init__.py: /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_IsLineSegmentFree.py
 /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/__init__.py: /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_IsPointFree.py
 /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/__init__.py: /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_GetNearestOccupiedPointInCone.py
-/home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/__init__.py: /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_GetRangers.py
+/home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/__init__.py: /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_SwitchRanger.py
+/home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/__init__.py: /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_PlanPath.py
+/home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/__init__.py: /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_GetMultiplePoseLikelihood.py
+/home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/__init__.py: /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_IsLineSegmentFree.py
 /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/__init__.py: /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_GetNearestOccupiedPointOnBeam.py
+/home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/__init__.py: /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_GetRangers.py
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/kishaan/catkin_ws/src/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python srv __init__.py for amr_srvs"
-	cd /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_srvs && ../../catkin_generated/env_cached.sh /home/kishaan/anaconda2/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv --initpy
+	cd /home/kishaan/catkin_ws/src/team07/amr_srvs && ../../catkin_generated/env_cached.sh /home/kishaan/anaconda2/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv --initpy
 
-amr_srvs_generate_messages_py: ws17-kkisha2s/amr_srvs/CMakeFiles/amr_srvs_generate_messages_py
-amr_srvs_generate_messages_py: /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_PlanPath.py
-amr_srvs_generate_messages_py: /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_GetMultiplePoseLikelihood.py
+amr_srvs_generate_messages_py: team07/amr_srvs/CMakeFiles/amr_srvs_generate_messages_py
 amr_srvs_generate_messages_py: /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_GetPoseLikelihood.py
-amr_srvs_generate_messages_py: /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_SwitchRanger.py
-amr_srvs_generate_messages_py: /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_IsLineSegmentFree.py
 amr_srvs_generate_messages_py: /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_IsPointFree.py
 amr_srvs_generate_messages_py: /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_GetNearestOccupiedPointInCone.py
-amr_srvs_generate_messages_py: /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_GetRangers.py
+amr_srvs_generate_messages_py: /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_SwitchRanger.py
+amr_srvs_generate_messages_py: /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_PlanPath.py
+amr_srvs_generate_messages_py: /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_GetMultiplePoseLikelihood.py
+amr_srvs_generate_messages_py: /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_IsLineSegmentFree.py
 amr_srvs_generate_messages_py: /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_GetNearestOccupiedPointOnBeam.py
+amr_srvs_generate_messages_py: /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/_GetRangers.py
 amr_srvs_generate_messages_py: /home/kishaan/catkin_ws/devel/lib/python2.7/dist-packages/amr_srvs/srv/__init__.py
-amr_srvs_generate_messages_py: ws17-kkisha2s/amr_srvs/CMakeFiles/amr_srvs_generate_messages_py.dir/build.make
+amr_srvs_generate_messages_py: team07/amr_srvs/CMakeFiles/amr_srvs_generate_messages_py.dir/build.make
 .PHONY : amr_srvs_generate_messages_py
 
 # Rule to build all files generated by this target.
-ws17-kkisha2s/amr_srvs/CMakeFiles/amr_srvs_generate_messages_py.dir/build: amr_srvs_generate_messages_py
-.PHONY : ws17-kkisha2s/amr_srvs/CMakeFiles/amr_srvs_generate_messages_py.dir/build
+team07/amr_srvs/CMakeFiles/amr_srvs_generate_messages_py.dir/build: amr_srvs_generate_messages_py
+.PHONY : team07/amr_srvs/CMakeFiles/amr_srvs_generate_messages_py.dir/build
 
-ws17-kkisha2s/amr_srvs/CMakeFiles/amr_srvs_generate_messages_py.dir/clean:
-	cd /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_srvs && $(CMAKE_COMMAND) -P CMakeFiles/amr_srvs_generate_messages_py.dir/cmake_clean.cmake
-.PHONY : ws17-kkisha2s/amr_srvs/CMakeFiles/amr_srvs_generate_messages_py.dir/clean
+team07/amr_srvs/CMakeFiles/amr_srvs_generate_messages_py.dir/clean:
+	cd /home/kishaan/catkin_ws/src/team07/amr_srvs && $(CMAKE_COMMAND) -P CMakeFiles/amr_srvs_generate_messages_py.dir/cmake_clean.cmake
+.PHONY : team07/amr_srvs/CMakeFiles/amr_srvs_generate_messages_py.dir/clean
 
-ws17-kkisha2s/amr_srvs/CMakeFiles/amr_srvs_generate_messages_py.dir/depend:
-	cd /home/kishaan/catkin_ws/src && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kishaan/catkin_ws/src /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_srvs /home/kishaan/catkin_ws/src /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_srvs /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_srvs/CMakeFiles/amr_srvs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : ws17-kkisha2s/amr_srvs/CMakeFiles/amr_srvs_generate_messages_py.dir/depend
+team07/amr_srvs/CMakeFiles/amr_srvs_generate_messages_py.dir/depend:
+	cd /home/kishaan/catkin_ws/src && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kishaan/catkin_ws/src /home/kishaan/catkin_ws/src/team07/amr_srvs /home/kishaan/catkin_ws/src /home/kishaan/catkin_ws/src/team07/amr_srvs /home/kishaan/catkin_ws/src/team07/amr_srvs/CMakeFiles/amr_srvs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : team07/amr_srvs/CMakeFiles/amr_srvs_generate_messages_py.dir/depend
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_srvs
+# Install script for directory: /home/kishaan/catkin_ws/src/team07/amr_srvs
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,20 +34,20 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/amr_srvs/srv" TYPE FILE FILES
-    "/home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_srvs/srv/GetNearestOccupiedPointInCone.srv"
-    "/home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_srvs/srv/GetMultiplePoseLikelihood.srv"
-    "/home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_srvs/srv/GetPoseLikelihood.srv"
-    "/home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_srvs/srv/IsLineSegmentFree.srv"
-    "/home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_srvs/srv/PlanPath.srv"
-    "/home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_srvs/srv/GetNearestOccupiedPointOnBeam.srv"
-    "/home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_srvs/srv/GetRangers.srv"
-    "/home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_srvs/srv/IsPointFree.srv"
-    "/home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_srvs/srv/SwitchRanger.srv"
+    "/home/kishaan/catkin_ws/src/team07/amr_srvs/srv/GetNearestOccupiedPointInCone.srv"
+    "/home/kishaan/catkin_ws/src/team07/amr_srvs/srv/GetMultiplePoseLikelihood.srv"
+    "/home/kishaan/catkin_ws/src/team07/amr_srvs/srv/GetPoseLikelihood.srv"
+    "/home/kishaan/catkin_ws/src/team07/amr_srvs/srv/IsLineSegmentFree.srv"
+    "/home/kishaan/catkin_ws/src/team07/amr_srvs/srv/PlanPath.srv"
+    "/home/kishaan/catkin_ws/src/team07/amr_srvs/srv/GetNearestOccupiedPointOnBeam.srv"
+    "/home/kishaan/catkin_ws/src/team07/amr_srvs/srv/GetRangers.srv"
+    "/home/kishaan/catkin_ws/src/team07/amr_srvs/srv/IsPointFree.srv"
+    "/home/kishaan/catkin_ws/src/team07/amr_srvs/srv/SwitchRanger.srv"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/amr_srvs/cmake" TYPE FILE FILES "/home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_srvs/catkin_generated/installspace/amr_srvs-msg-paths.cmake")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/amr_srvs/cmake" TYPE FILE FILES "/home/kishaan/catkin_ws/src/team07/amr_srvs/catkin_generated/installspace/amr_srvs-msg-paths.cmake")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -67,21 +67,21 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_srvs/catkin_generated/installspace/amr_srvs.pc")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/kishaan/catkin_ws/src/team07/amr_srvs/catkin_generated/installspace/amr_srvs.pc")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/amr_srvs/cmake" TYPE FILE FILES "/home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_srvs/catkin_generated/installspace/amr_srvs-msg-extras.cmake")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/amr_srvs/cmake" TYPE FILE FILES "/home/kishaan/catkin_ws/src/team07/amr_srvs/catkin_generated/installspace/amr_srvs-msg-extras.cmake")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/amr_srvs/cmake" TYPE FILE FILES
-    "/home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_srvs/catkin_generated/installspace/amr_srvsConfig.cmake"
-    "/home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_srvs/catkin_generated/installspace/amr_srvsConfig-version.cmake"
+    "/home/kishaan/catkin_ws/src/team07/amr_srvs/catkin_generated/installspace/amr_srvsConfig.cmake"
+    "/home/kishaan/catkin_ws/src/team07/amr_srvs/catkin_generated/installspace/amr_srvsConfig-version.cmake"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/amr_srvs" TYPE FILE FILES "/home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_srvs/package.xml")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/amr_srvs" TYPE FILE FILES "/home/kishaan/catkin_ws/src/team07/amr_srvs/package.xml")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

@@ -120,14 +120,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/kishaan/catkin_ws/src && $(CMAKE_COMMAND) -E cmake_progress_start /home/kishaan/catkin_ws/src/CMakeFiles /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr/CMakeFiles/progress.marks
-	cd /home/kishaan/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 ws17-kkisha2s/amr/all
+	cd /home/kishaan/catkin_ws/src && $(CMAKE_COMMAND) -E cmake_progress_start /home/kishaan/catkin_ws/src/CMakeFiles /home/kishaan/catkin_ws/src/team07/amr/CMakeFiles/progress.marks
+	cd /home/kishaan/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 team07/amr/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/kishaan/catkin_ws/src/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/kishaan/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 ws17-kkisha2s/amr/clean
+	cd /home/kishaan/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 team07/amr/clean
 .PHONY : clean
 
 # The main clean target
@@ -136,12 +136,12 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/kishaan/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 ws17-kkisha2s/amr/preinstall
+	cd /home/kishaan/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 team07/amr/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/kishaan/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 ws17-kkisha2s/amr/preinstall
+	cd /home/kishaan/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 team07/amr/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
@@ -150,17 +150,17 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-ws17-kkisha2s/amr/CMakeFiles/_catkin_empty_exported_target.dir/rule:
-	cd /home/kishaan/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 ws17-kkisha2s/amr/CMakeFiles/_catkin_empty_exported_target.dir/rule
-.PHONY : ws17-kkisha2s/amr/CMakeFiles/_catkin_empty_exported_target.dir/rule
+team07/amr/CMakeFiles/_catkin_empty_exported_target.dir/rule:
+	cd /home/kishaan/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 team07/amr/CMakeFiles/_catkin_empty_exported_target.dir/rule
+.PHONY : team07/amr/CMakeFiles/_catkin_empty_exported_target.dir/rule
 
 # Convenience name for target.
-_catkin_empty_exported_target: ws17-kkisha2s/amr/CMakeFiles/_catkin_empty_exported_target.dir/rule
+_catkin_empty_exported_target: team07/amr/CMakeFiles/_catkin_empty_exported_target.dir/rule
 .PHONY : _catkin_empty_exported_target
 
 # fast build rule for target.
 _catkin_empty_exported_target/fast:
-	cd /home/kishaan/catkin_ws/src && $(MAKE) -f ws17-kkisha2s/amr/CMakeFiles/_catkin_empty_exported_target.dir/build.make ws17-kkisha2s/amr/CMakeFiles/_catkin_empty_exported_target.dir/build
+	cd /home/kishaan/catkin_ws/src && $(MAKE) -f team07/amr/CMakeFiles/_catkin_empty_exported_target.dir/build.make team07/amr/CMakeFiles/_catkin_empty_exported_target.dir/build
 .PHONY : _catkin_empty_exported_target/fast
 
 # Help Target

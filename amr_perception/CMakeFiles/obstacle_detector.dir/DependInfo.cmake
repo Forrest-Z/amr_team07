@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_perception/nodes/obstacle_detector.cpp" "/home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_perception/CMakeFiles/obstacle_detector.dir/nodes/obstacle_detector.cpp.o"
+  "/home/kishaan/catkin_ws/src/team07/amr_perception/nodes/obstacle_detector.cpp" "/home/kishaan/catkin_ws/src/team07/amr_perception/CMakeFiles/obstacle_detector.dir/nodes/obstacle_detector.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -22,9 +22,9 @@ SET(CMAKE_TARGET_LINKED_INFO_FILES
 # The include file search paths:
 SET(CMAKE_C_TARGET_INCLUDE_PATH
   "/home/kishaan/catkin_ws/devel/include"
-  "ws17-kkisha2s/amr_perception/include"
+  "team07/amr_perception/include"
   "/opt/ros/indigo/include"
-  "ws17-kkisha2s/amr_perception/cfg/cpp"
+  "team07/amr_perception/cfg/cpp"
   )
 SET(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
 SET(CMAKE_Fortran_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})

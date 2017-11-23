@@ -67,7 +67,7 @@ set(amr_binaries_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(amr_binaries_SOURCE_PREFIX /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_binaries)
+  set(amr_binaries_SOURCE_PREFIX /home/kishaan/catkin_ws/src/team07/amr_binaries)
   set(amr_binaries_DEVEL_PREFIX /home/kishaan/catkin_ws/devel)
   set(amr_binaries_INSTALL_PREFIX "")
   set(amr_binaries_PREFIX ${amr_binaries_DEVEL_PREFIX})

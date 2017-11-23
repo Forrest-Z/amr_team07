@@ -14,7 +14,7 @@ fi
 
 echo_and_run() { echo "+ $@" ; "$@" ; }
 
-echo_and_run cd "/home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_braitenberg"
+echo_and_run cd "/home/kishaan/catkin_ws/src/team07/amr_braitenberg"
 
 # snsure that Python install destination exists
 echo_and_run mkdir -p "$DESTDIR/home/kishaan/catkin_ws/install/lib/python2.7/dist-packages"
@@ -26,8 +26,8 @@ echo_and_run /usr/bin/env \
     PYTHONPATH="/home/kishaan/catkin_ws/install/lib/python2.7/dist-packages:/home/kishaan/catkin_ws/src/lib/python2.7/dist-packages:$PYTHONPATH" \
     CATKIN_BINARY_DIR="/home/kishaan/catkin_ws/src" \
     "/home/kishaan/anaconda2/bin/python" \
-    "/home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_braitenberg/setup.py" \
-    build --build-base "/home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_braitenberg" \
+    "/home/kishaan/catkin_ws/src/team07/amr_braitenberg/setup.py" \
+    build --build-base "/home/kishaan/catkin_ws/src/team07/amr_braitenberg" \
     install \
     $DESTDIR_ARG \
     --install-layout=deb --prefix="/home/kishaan/catkin_ws/install" --install-scripts="/home/kishaan/catkin_ws/install/bin"

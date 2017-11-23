@@ -67,7 +67,7 @@ set(amr_ui_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(amr_ui_SOURCE_PREFIX /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_ui)
+  set(amr_ui_SOURCE_PREFIX /home/kishaan/catkin_ws/src/team07/amr_ui)
   set(amr_ui_DEVEL_PREFIX /home/kishaan/catkin_ws/devel)
   set(amr_ui_INSTALL_PREFIX "")
   set(amr_ui_PREFIX ${amr_ui_DEVEL_PREFIX})

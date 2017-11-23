@@ -17,9 +17,9 @@ SET(CMAKE_TARGET_LINKED_INFO_FILES
 # The include file search paths:
 SET(CMAKE_C_TARGET_INCLUDE_PATH
   "/home/kishaan/catkin_ws/devel/include"
-  "ws17-kkisha2s/amr_perception/include"
+  "team07/amr_perception/include"
   "/opt/ros/indigo/include"
-  "ws17-kkisha2s/amr_perception/cfg/cpp"
+  "team07/amr_perception/cfg/cpp"
   )
 SET(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
 SET(CMAKE_Fortran_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})

@@ -1,4 +1,4 @@
-# Install script for directory: /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr
+# Install script for directory: /home/kishaan/catkin_ws/src/team07/amr
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,6 +33,6 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/amr" TYPE FILE FILES "/home/kishaan/catkin_ws/src/ws17-kkisha2s/amr/package.xml")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/amr" TYPE FILE FILES "/home/kishaan/catkin_ws/src/team07/amr/package.xml")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

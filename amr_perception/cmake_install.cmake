@@ -1,4 +1,4 @@
-# Install script for directory: /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_perception
+# Install script for directory: /home/kishaan/catkin_ws/src/team07/amr_perception
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -53,17 +53,17 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_perception/catkin_generated/installspace/amr_perception.pc")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/kishaan/catkin_ws/src/team07/amr_perception/catkin_generated/installspace/amr_perception.pc")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/amr_perception/cmake" TYPE FILE FILES
-    "/home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_perception/catkin_generated/installspace/amr_perceptionConfig.cmake"
-    "/home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_perception/catkin_generated/installspace/amr_perceptionConfig-version.cmake"
+    "/home/kishaan/catkin_ws/src/team07/amr_perception/catkin_generated/installspace/amr_perceptionConfig.cmake"
+    "/home/kishaan/catkin_ws/src/team07/amr_perception/catkin_generated/installspace/amr_perceptionConfig-version.cmake"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/amr_perception" TYPE FILE FILES "/home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_perception/package.xml")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/amr_perception" TYPE FILE FILES "/home/kishaan/catkin_ws/src/team07/amr_perception/package.xml")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

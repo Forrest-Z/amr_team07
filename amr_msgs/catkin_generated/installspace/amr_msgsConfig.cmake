@@ -67,7 +67,7 @@ set(amr_msgs_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(amr_msgs_SOURCE_PREFIX /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_msgs)
+  set(amr_msgs_SOURCE_PREFIX /home/kishaan/catkin_ws/src/team07/amr_msgs)
   set(amr_msgs_DEVEL_PREFIX /home/kishaan/catkin_ws/devel)
   set(amr_msgs_INSTALL_PREFIX "")
   set(amr_msgs_PREFIX ${amr_msgs_DEVEL_PREFIX})

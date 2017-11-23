@@ -120,14 +120,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/kishaan/catkin_ws/src && $(CMAKE_COMMAND) -E cmake_progress_start /home/kishaan/catkin_ws/src/CMakeFiles /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_bugs/CMakeFiles/progress.marks
-	cd /home/kishaan/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 ws17-kkisha2s/amr_bugs/all
+	cd /home/kishaan/catkin_ws/src && $(CMAKE_COMMAND) -E cmake_progress_start /home/kishaan/catkin_ws/src/CMakeFiles /home/kishaan/catkin_ws/src/team07/amr_bugs/CMakeFiles/progress.marks
+	cd /home/kishaan/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 team07/amr_bugs/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/kishaan/catkin_ws/src/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/kishaan/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 ws17-kkisha2s/amr_bugs/clean
+	cd /home/kishaan/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 team07/amr_bugs/clean
 .PHONY : clean
 
 # The main clean target
@@ -136,12 +136,12 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/kishaan/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 ws17-kkisha2s/amr_bugs/preinstall
+	cd /home/kishaan/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 team07/amr_bugs/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/kishaan/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 ws17-kkisha2s/amr_bugs/preinstall
+	cd /home/kishaan/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 team07/amr_bugs/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
@@ -150,101 +150,101 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-ws17-kkisha2s/amr_bugs/CMakeFiles/amr_bugs_gencfg.dir/rule:
-	cd /home/kishaan/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 ws17-kkisha2s/amr_bugs/CMakeFiles/amr_bugs_gencfg.dir/rule
-.PHONY : ws17-kkisha2s/amr_bugs/CMakeFiles/amr_bugs_gencfg.dir/rule
+team07/amr_bugs/CMakeFiles/amr_bugs_gencfg.dir/rule:
+	cd /home/kishaan/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 team07/amr_bugs/CMakeFiles/amr_bugs_gencfg.dir/rule
+.PHONY : team07/amr_bugs/CMakeFiles/amr_bugs_gencfg.dir/rule
 
 # Convenience name for target.
-amr_bugs_gencfg: ws17-kkisha2s/amr_bugs/CMakeFiles/amr_bugs_gencfg.dir/rule
+amr_bugs_gencfg: team07/amr_bugs/CMakeFiles/amr_bugs_gencfg.dir/rule
 .PHONY : amr_bugs_gencfg
 
 # fast build rule for target.
 amr_bugs_gencfg/fast:
-	cd /home/kishaan/catkin_ws/src && $(MAKE) -f ws17-kkisha2s/amr_bugs/CMakeFiles/amr_bugs_gencfg.dir/build.make ws17-kkisha2s/amr_bugs/CMakeFiles/amr_bugs_gencfg.dir/build
+	cd /home/kishaan/catkin_ws/src && $(MAKE) -f team07/amr_bugs/CMakeFiles/amr_bugs_gencfg.dir/build.make team07/amr_bugs/CMakeFiles/amr_bugs_gencfg.dir/build
 .PHONY : amr_bugs_gencfg/fast
 
 # Convenience name for target.
-ws17-kkisha2s/amr_bugs/CMakeFiles/smach_msgs_generate_messages_cpp.dir/rule:
-	cd /home/kishaan/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 ws17-kkisha2s/amr_bugs/CMakeFiles/smach_msgs_generate_messages_cpp.dir/rule
-.PHONY : ws17-kkisha2s/amr_bugs/CMakeFiles/smach_msgs_generate_messages_cpp.dir/rule
+team07/amr_bugs/CMakeFiles/smach_msgs_generate_messages_cpp.dir/rule:
+	cd /home/kishaan/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 team07/amr_bugs/CMakeFiles/smach_msgs_generate_messages_cpp.dir/rule
+.PHONY : team07/amr_bugs/CMakeFiles/smach_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
-smach_msgs_generate_messages_cpp: ws17-kkisha2s/amr_bugs/CMakeFiles/smach_msgs_generate_messages_cpp.dir/rule
+smach_msgs_generate_messages_cpp: team07/amr_bugs/CMakeFiles/smach_msgs_generate_messages_cpp.dir/rule
 .PHONY : smach_msgs_generate_messages_cpp
 
 # fast build rule for target.
 smach_msgs_generate_messages_cpp/fast:
-	cd /home/kishaan/catkin_ws/src && $(MAKE) -f ws17-kkisha2s/amr_bugs/CMakeFiles/smach_msgs_generate_messages_cpp.dir/build.make ws17-kkisha2s/amr_bugs/CMakeFiles/smach_msgs_generate_messages_cpp.dir/build
+	cd /home/kishaan/catkin_ws/src && $(MAKE) -f team07/amr_bugs/CMakeFiles/smach_msgs_generate_messages_cpp.dir/build.make team07/amr_bugs/CMakeFiles/smach_msgs_generate_messages_cpp.dir/build
 .PHONY : smach_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
-ws17-kkisha2s/amr_bugs/CMakeFiles/smach_msgs_generate_messages_lisp.dir/rule:
-	cd /home/kishaan/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 ws17-kkisha2s/amr_bugs/CMakeFiles/smach_msgs_generate_messages_lisp.dir/rule
-.PHONY : ws17-kkisha2s/amr_bugs/CMakeFiles/smach_msgs_generate_messages_lisp.dir/rule
+team07/amr_bugs/CMakeFiles/smach_msgs_generate_messages_lisp.dir/rule:
+	cd /home/kishaan/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 team07/amr_bugs/CMakeFiles/smach_msgs_generate_messages_lisp.dir/rule
+.PHONY : team07/amr_bugs/CMakeFiles/smach_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
-smach_msgs_generate_messages_lisp: ws17-kkisha2s/amr_bugs/CMakeFiles/smach_msgs_generate_messages_lisp.dir/rule
+smach_msgs_generate_messages_lisp: team07/amr_bugs/CMakeFiles/smach_msgs_generate_messages_lisp.dir/rule
 .PHONY : smach_msgs_generate_messages_lisp
 
 # fast build rule for target.
 smach_msgs_generate_messages_lisp/fast:
-	cd /home/kishaan/catkin_ws/src && $(MAKE) -f ws17-kkisha2s/amr_bugs/CMakeFiles/smach_msgs_generate_messages_lisp.dir/build.make ws17-kkisha2s/amr_bugs/CMakeFiles/smach_msgs_generate_messages_lisp.dir/build
+	cd /home/kishaan/catkin_ws/src && $(MAKE) -f team07/amr_bugs/CMakeFiles/smach_msgs_generate_messages_lisp.dir/build.make team07/amr_bugs/CMakeFiles/smach_msgs_generate_messages_lisp.dir/build
 .PHONY : smach_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
-ws17-kkisha2s/amr_bugs/CMakeFiles/smach_msgs_generate_messages_py.dir/rule:
-	cd /home/kishaan/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 ws17-kkisha2s/amr_bugs/CMakeFiles/smach_msgs_generate_messages_py.dir/rule
-.PHONY : ws17-kkisha2s/amr_bugs/CMakeFiles/smach_msgs_generate_messages_py.dir/rule
+team07/amr_bugs/CMakeFiles/smach_msgs_generate_messages_py.dir/rule:
+	cd /home/kishaan/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 team07/amr_bugs/CMakeFiles/smach_msgs_generate_messages_py.dir/rule
+.PHONY : team07/amr_bugs/CMakeFiles/smach_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
-smach_msgs_generate_messages_py: ws17-kkisha2s/amr_bugs/CMakeFiles/smach_msgs_generate_messages_py.dir/rule
+smach_msgs_generate_messages_py: team07/amr_bugs/CMakeFiles/smach_msgs_generate_messages_py.dir/rule
 .PHONY : smach_msgs_generate_messages_py
 
 # fast build rule for target.
 smach_msgs_generate_messages_py/fast:
-	cd /home/kishaan/catkin_ws/src && $(MAKE) -f ws17-kkisha2s/amr_bugs/CMakeFiles/smach_msgs_generate_messages_py.dir/build.make ws17-kkisha2s/amr_bugs/CMakeFiles/smach_msgs_generate_messages_py.dir/build
+	cd /home/kishaan/catkin_ws/src && $(MAKE) -f team07/amr_bugs/CMakeFiles/smach_msgs_generate_messages_py.dir/build.make team07/amr_bugs/CMakeFiles/smach_msgs_generate_messages_py.dir/build
 .PHONY : smach_msgs_generate_messages_py/fast
 
 # Convenience name for target.
-ws17-kkisha2s/amr_bugs/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule:
-	cd /home/kishaan/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 ws17-kkisha2s/amr_bugs/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule
-.PHONY : ws17-kkisha2s/amr_bugs/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule
+team07/amr_bugs/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule:
+	cd /home/kishaan/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 team07/amr_bugs/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule
+.PHONY : team07/amr_bugs/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
-std_srvs_generate_messages_cpp: ws17-kkisha2s/amr_bugs/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule
+std_srvs_generate_messages_cpp: team07/amr_bugs/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule
 .PHONY : std_srvs_generate_messages_cpp
 
 # fast build rule for target.
 std_srvs_generate_messages_cpp/fast:
-	cd /home/kishaan/catkin_ws/src && $(MAKE) -f ws17-kkisha2s/amr_bugs/CMakeFiles/std_srvs_generate_messages_cpp.dir/build.make ws17-kkisha2s/amr_bugs/CMakeFiles/std_srvs_generate_messages_cpp.dir/build
+	cd /home/kishaan/catkin_ws/src && $(MAKE) -f team07/amr_bugs/CMakeFiles/std_srvs_generate_messages_cpp.dir/build.make team07/amr_bugs/CMakeFiles/std_srvs_generate_messages_cpp.dir/build
 .PHONY : std_srvs_generate_messages_cpp/fast
 
 # Convenience name for target.
-ws17-kkisha2s/amr_bugs/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule:
-	cd /home/kishaan/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 ws17-kkisha2s/amr_bugs/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule
-.PHONY : ws17-kkisha2s/amr_bugs/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule
+team07/amr_bugs/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule:
+	cd /home/kishaan/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 team07/amr_bugs/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule
+.PHONY : team07/amr_bugs/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
-std_srvs_generate_messages_lisp: ws17-kkisha2s/amr_bugs/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule
+std_srvs_generate_messages_lisp: team07/amr_bugs/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule
 .PHONY : std_srvs_generate_messages_lisp
 
 # fast build rule for target.
 std_srvs_generate_messages_lisp/fast:
-	cd /home/kishaan/catkin_ws/src && $(MAKE) -f ws17-kkisha2s/amr_bugs/CMakeFiles/std_srvs_generate_messages_lisp.dir/build.make ws17-kkisha2s/amr_bugs/CMakeFiles/std_srvs_generate_messages_lisp.dir/build
+	cd /home/kishaan/catkin_ws/src && $(MAKE) -f team07/amr_bugs/CMakeFiles/std_srvs_generate_messages_lisp.dir/build.make team07/amr_bugs/CMakeFiles/std_srvs_generate_messages_lisp.dir/build
 .PHONY : std_srvs_generate_messages_lisp/fast
 
 # Convenience name for target.
-ws17-kkisha2s/amr_bugs/CMakeFiles/std_srvs_generate_messages_py.dir/rule:
-	cd /home/kishaan/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 ws17-kkisha2s/amr_bugs/CMakeFiles/std_srvs_generate_messages_py.dir/rule
-.PHONY : ws17-kkisha2s/amr_bugs/CMakeFiles/std_srvs_generate_messages_py.dir/rule
+team07/amr_bugs/CMakeFiles/std_srvs_generate_messages_py.dir/rule:
+	cd /home/kishaan/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 team07/amr_bugs/CMakeFiles/std_srvs_generate_messages_py.dir/rule
+.PHONY : team07/amr_bugs/CMakeFiles/std_srvs_generate_messages_py.dir/rule
 
 # Convenience name for target.
-std_srvs_generate_messages_py: ws17-kkisha2s/amr_bugs/CMakeFiles/std_srvs_generate_messages_py.dir/rule
+std_srvs_generate_messages_py: team07/amr_bugs/CMakeFiles/std_srvs_generate_messages_py.dir/rule
 .PHONY : std_srvs_generate_messages_py
 
 # fast build rule for target.
 std_srvs_generate_messages_py/fast:
-	cd /home/kishaan/catkin_ws/src && $(MAKE) -f ws17-kkisha2s/amr_bugs/CMakeFiles/std_srvs_generate_messages_py.dir/build.make ws17-kkisha2s/amr_bugs/CMakeFiles/std_srvs_generate_messages_py.dir/build
+	cd /home/kishaan/catkin_ws/src && $(MAKE) -f team07/amr_bugs/CMakeFiles/std_srvs_generate_messages_py.dir/build.make team07/amr_bugs/CMakeFiles/std_srvs_generate_messages_py.dir/build
 .PHONY : std_srvs_generate_messages_py/fast
 
 # Help Target

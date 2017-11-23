@@ -1,4 +1,4 @@
-# Install script for directory: /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_msgs
+# Install script for directory: /home/kishaan/catkin_ws/src/team07/amr_msgs
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,19 +34,19 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/amr_msgs/msg" TYPE FILE FILES
-    "/home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_msgs/msg/Cone.msg"
-    "/home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_msgs/msg/Obstacle.msg"
-    "/home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_msgs/msg/PathExecutionFailure.msg"
-    "/home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_msgs/msg/Ranges.msg"
-    "/home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_msgs/msg/WheelSpeeds.msg"
-    "/home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_msgs/msg/Frontiers.msg"
+    "/home/kishaan/catkin_ws/src/team07/amr_msgs/msg/Cone.msg"
+    "/home/kishaan/catkin_ws/src/team07/amr_msgs/msg/Obstacle.msg"
+    "/home/kishaan/catkin_ws/src/team07/amr_msgs/msg/PathExecutionFailure.msg"
+    "/home/kishaan/catkin_ws/src/team07/amr_msgs/msg/Ranges.msg"
+    "/home/kishaan/catkin_ws/src/team07/amr_msgs/msg/WheelSpeeds.msg"
+    "/home/kishaan/catkin_ws/src/team07/amr_msgs/msg/Frontiers.msg"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/amr_msgs/action" TYPE FILE FILES
-    "/home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_msgs/action/ExecutePath.action"
-    "/home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_msgs/action/MoveTo.action"
+    "/home/kishaan/catkin_ws/src/team07/amr_msgs/action/ExecutePath.action"
+    "/home/kishaan/catkin_ws/src/team07/amr_msgs/action/MoveTo.action"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
@@ -75,7 +75,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/amr_msgs/cmake" TYPE FILE FILES "/home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_msgs/catkin_generated/installspace/amr_msgs-msg-paths.cmake")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/amr_msgs/cmake" TYPE FILE FILES "/home/kishaan/catkin_ws/src/team07/amr_msgs/catkin_generated/installspace/amr_msgs-msg-paths.cmake")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -95,21 +95,21 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_msgs/catkin_generated/installspace/amr_msgs.pc")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/kishaan/catkin_ws/src/team07/amr_msgs/catkin_generated/installspace/amr_msgs.pc")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/amr_msgs/cmake" TYPE FILE FILES "/home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_msgs/catkin_generated/installspace/amr_msgs-msg-extras.cmake")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/amr_msgs/cmake" TYPE FILE FILES "/home/kishaan/catkin_ws/src/team07/amr_msgs/catkin_generated/installspace/amr_msgs-msg-extras.cmake")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/amr_msgs/cmake" TYPE FILE FILES
-    "/home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_msgs/catkin_generated/installspace/amr_msgsConfig.cmake"
-    "/home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_msgs/catkin_generated/installspace/amr_msgsConfig-version.cmake"
+    "/home/kishaan/catkin_ws/src/team07/amr_msgs/catkin_generated/installspace/amr_msgsConfig.cmake"
+    "/home/kishaan/catkin_ws/src/team07/amr_msgs/catkin_generated/installspace/amr_msgsConfig-version.cmake"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/amr_msgs" TYPE FILE FILES "/home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_msgs/package.xml")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/amr_msgs" TYPE FILE FILES "/home/kishaan/catkin_ws/src/team07/amr_msgs/package.xml")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

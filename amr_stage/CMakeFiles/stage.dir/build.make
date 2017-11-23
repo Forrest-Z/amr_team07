@@ -41,128 +41,128 @@ CMAKE_SOURCE_DIR = /home/kishaan/catkin_ws/src
 CMAKE_BINARY_DIR = /home/kishaan/catkin_ws/src
 
 # Include any dependencies generated for this target.
-include ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/depend.make
+include team07/amr_stage/CMakeFiles/stage.dir/depend.make
 
 # Include the progress variables for this target.
-include ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/progress.make
+include team07/amr_stage/CMakeFiles/stage.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/flags.make
+include team07/amr_stage/CMakeFiles/stage.dir/flags.make
 
-ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/nodes/stage.cpp.o: ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/flags.make
-ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/nodes/stage.cpp.o: ws17-kkisha2s/amr_stage/nodes/stage.cpp
+team07/amr_stage/CMakeFiles/stage.dir/nodes/stage.cpp.o: team07/amr_stage/CMakeFiles/stage.dir/flags.make
+team07/amr_stage/CMakeFiles/stage.dir/nodes/stage.cpp.o: team07/amr_stage/nodes/stage.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/kishaan/catkin_ws/src/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/nodes/stage.cpp.o"
-	cd /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_stage && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/stage.dir/nodes/stage.cpp.o -c /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_stage/nodes/stage.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object team07/amr_stage/CMakeFiles/stage.dir/nodes/stage.cpp.o"
+	cd /home/kishaan/catkin_ws/src/team07/amr_stage && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/stage.dir/nodes/stage.cpp.o -c /home/kishaan/catkin_ws/src/team07/amr_stage/nodes/stage.cpp
 
-ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/nodes/stage.cpp.i: cmake_force
+team07/amr_stage/CMakeFiles/stage.dir/nodes/stage.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stage.dir/nodes/stage.cpp.i"
-	cd /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_stage && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_stage/nodes/stage.cpp > CMakeFiles/stage.dir/nodes/stage.cpp.i
+	cd /home/kishaan/catkin_ws/src/team07/amr_stage && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kishaan/catkin_ws/src/team07/amr_stage/nodes/stage.cpp > CMakeFiles/stage.dir/nodes/stage.cpp.i
 
-ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/nodes/stage.cpp.s: cmake_force
+team07/amr_stage/CMakeFiles/stage.dir/nodes/stage.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stage.dir/nodes/stage.cpp.s"
-	cd /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_stage && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_stage/nodes/stage.cpp -o CMakeFiles/stage.dir/nodes/stage.cpp.s
+	cd /home/kishaan/catkin_ws/src/team07/amr_stage && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kishaan/catkin_ws/src/team07/amr_stage/nodes/stage.cpp -o CMakeFiles/stage.dir/nodes/stage.cpp.s
 
-ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/nodes/stage.cpp.o.requires:
-.PHONY : ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/nodes/stage.cpp.o.requires
+team07/amr_stage/CMakeFiles/stage.dir/nodes/stage.cpp.o.requires:
+.PHONY : team07/amr_stage/CMakeFiles/stage.dir/nodes/stage.cpp.o.requires
 
-ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/nodes/stage.cpp.o.provides: ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/nodes/stage.cpp.o.requires
-	$(MAKE) -f ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/build.make ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/nodes/stage.cpp.o.provides.build
-.PHONY : ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/nodes/stage.cpp.o.provides
+team07/amr_stage/CMakeFiles/stage.dir/nodes/stage.cpp.o.provides: team07/amr_stage/CMakeFiles/stage.dir/nodes/stage.cpp.o.requires
+	$(MAKE) -f team07/amr_stage/CMakeFiles/stage.dir/build.make team07/amr_stage/CMakeFiles/stage.dir/nodes/stage.cpp.o.provides.build
+.PHONY : team07/amr_stage/CMakeFiles/stage.dir/nodes/stage.cpp.o.provides
 
-ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/nodes/stage.cpp.o.provides.build: ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/nodes/stage.cpp.o
+team07/amr_stage/CMakeFiles/stage.dir/nodes/stage.cpp.o.provides.build: team07/amr_stage/CMakeFiles/stage.dir/nodes/stage.cpp.o
 
-ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/ranger.cpp.o: ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/flags.make
-ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/ranger.cpp.o: ws17-kkisha2s/amr_stage/src/ranger.cpp
+team07/amr_stage/CMakeFiles/stage.dir/src/ranger.cpp.o: team07/amr_stage/CMakeFiles/stage.dir/flags.make
+team07/amr_stage/CMakeFiles/stage.dir/src/ranger.cpp.o: team07/amr_stage/src/ranger.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/kishaan/catkin_ws/src/CMakeFiles $(CMAKE_PROGRESS_2)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/ranger.cpp.o"
-	cd /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_stage && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/stage.dir/src/ranger.cpp.o -c /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_stage/src/ranger.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object team07/amr_stage/CMakeFiles/stage.dir/src/ranger.cpp.o"
+	cd /home/kishaan/catkin_ws/src/team07/amr_stage && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/stage.dir/src/ranger.cpp.o -c /home/kishaan/catkin_ws/src/team07/amr_stage/src/ranger.cpp
 
-ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/ranger.cpp.i: cmake_force
+team07/amr_stage/CMakeFiles/stage.dir/src/ranger.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stage.dir/src/ranger.cpp.i"
-	cd /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_stage && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_stage/src/ranger.cpp > CMakeFiles/stage.dir/src/ranger.cpp.i
+	cd /home/kishaan/catkin_ws/src/team07/amr_stage && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kishaan/catkin_ws/src/team07/amr_stage/src/ranger.cpp > CMakeFiles/stage.dir/src/ranger.cpp.i
 
-ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/ranger.cpp.s: cmake_force
+team07/amr_stage/CMakeFiles/stage.dir/src/ranger.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stage.dir/src/ranger.cpp.s"
-	cd /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_stage && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_stage/src/ranger.cpp -o CMakeFiles/stage.dir/src/ranger.cpp.s
+	cd /home/kishaan/catkin_ws/src/team07/amr_stage && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kishaan/catkin_ws/src/team07/amr_stage/src/ranger.cpp -o CMakeFiles/stage.dir/src/ranger.cpp.s
 
-ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/ranger.cpp.o.requires:
-.PHONY : ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/ranger.cpp.o.requires
+team07/amr_stage/CMakeFiles/stage.dir/src/ranger.cpp.o.requires:
+.PHONY : team07/amr_stage/CMakeFiles/stage.dir/src/ranger.cpp.o.requires
 
-ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/ranger.cpp.o.provides: ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/ranger.cpp.o.requires
-	$(MAKE) -f ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/build.make ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/ranger.cpp.o.provides.build
-.PHONY : ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/ranger.cpp.o.provides
+team07/amr_stage/CMakeFiles/stage.dir/src/ranger.cpp.o.provides: team07/amr_stage/CMakeFiles/stage.dir/src/ranger.cpp.o.requires
+	$(MAKE) -f team07/amr_stage/CMakeFiles/stage.dir/build.make team07/amr_stage/CMakeFiles/stage.dir/src/ranger.cpp.o.provides.build
+.PHONY : team07/amr_stage/CMakeFiles/stage.dir/src/ranger.cpp.o.provides
 
-ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/ranger.cpp.o.provides.build: ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/ranger.cpp.o
+team07/amr_stage/CMakeFiles/stage.dir/src/ranger.cpp.o.provides.build: team07/amr_stage/CMakeFiles/stage.dir/src/ranger.cpp.o
 
-ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/laser.cpp.o: ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/flags.make
-ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/laser.cpp.o: ws17-kkisha2s/amr_stage/src/laser.cpp
+team07/amr_stage/CMakeFiles/stage.dir/src/laser.cpp.o: team07/amr_stage/CMakeFiles/stage.dir/flags.make
+team07/amr_stage/CMakeFiles/stage.dir/src/laser.cpp.o: team07/amr_stage/src/laser.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/kishaan/catkin_ws/src/CMakeFiles $(CMAKE_PROGRESS_3)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/laser.cpp.o"
-	cd /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_stage && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/stage.dir/src/laser.cpp.o -c /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_stage/src/laser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object team07/amr_stage/CMakeFiles/stage.dir/src/laser.cpp.o"
+	cd /home/kishaan/catkin_ws/src/team07/amr_stage && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/stage.dir/src/laser.cpp.o -c /home/kishaan/catkin_ws/src/team07/amr_stage/src/laser.cpp
 
-ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/laser.cpp.i: cmake_force
+team07/amr_stage/CMakeFiles/stage.dir/src/laser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stage.dir/src/laser.cpp.i"
-	cd /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_stage && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_stage/src/laser.cpp > CMakeFiles/stage.dir/src/laser.cpp.i
+	cd /home/kishaan/catkin_ws/src/team07/amr_stage && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kishaan/catkin_ws/src/team07/amr_stage/src/laser.cpp > CMakeFiles/stage.dir/src/laser.cpp.i
 
-ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/laser.cpp.s: cmake_force
+team07/amr_stage/CMakeFiles/stage.dir/src/laser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stage.dir/src/laser.cpp.s"
-	cd /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_stage && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_stage/src/laser.cpp -o CMakeFiles/stage.dir/src/laser.cpp.s
+	cd /home/kishaan/catkin_ws/src/team07/amr_stage && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kishaan/catkin_ws/src/team07/amr_stage/src/laser.cpp -o CMakeFiles/stage.dir/src/laser.cpp.s
 
-ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/laser.cpp.o.requires:
-.PHONY : ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/laser.cpp.o.requires
+team07/amr_stage/CMakeFiles/stage.dir/src/laser.cpp.o.requires:
+.PHONY : team07/amr_stage/CMakeFiles/stage.dir/src/laser.cpp.o.requires
 
-ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/laser.cpp.o.provides: ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/laser.cpp.o.requires
-	$(MAKE) -f ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/build.make ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/laser.cpp.o.provides.build
-.PHONY : ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/laser.cpp.o.provides
+team07/amr_stage/CMakeFiles/stage.dir/src/laser.cpp.o.provides: team07/amr_stage/CMakeFiles/stage.dir/src/laser.cpp.o.requires
+	$(MAKE) -f team07/amr_stage/CMakeFiles/stage.dir/build.make team07/amr_stage/CMakeFiles/stage.dir/src/laser.cpp.o.provides.build
+.PHONY : team07/amr_stage/CMakeFiles/stage.dir/src/laser.cpp.o.provides
 
-ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/laser.cpp.o.provides.build: ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/laser.cpp.o
+team07/amr_stage/CMakeFiles/stage.dir/src/laser.cpp.o.provides.build: team07/amr_stage/CMakeFiles/stage.dir/src/laser.cpp.o
 
-ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/sonar.cpp.o: ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/flags.make
-ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/sonar.cpp.o: ws17-kkisha2s/amr_stage/src/sonar.cpp
+team07/amr_stage/CMakeFiles/stage.dir/src/sonar.cpp.o: team07/amr_stage/CMakeFiles/stage.dir/flags.make
+team07/amr_stage/CMakeFiles/stage.dir/src/sonar.cpp.o: team07/amr_stage/src/sonar.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/kishaan/catkin_ws/src/CMakeFiles $(CMAKE_PROGRESS_4)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/sonar.cpp.o"
-	cd /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_stage && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/stage.dir/src/sonar.cpp.o -c /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_stage/src/sonar.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object team07/amr_stage/CMakeFiles/stage.dir/src/sonar.cpp.o"
+	cd /home/kishaan/catkin_ws/src/team07/amr_stage && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/stage.dir/src/sonar.cpp.o -c /home/kishaan/catkin_ws/src/team07/amr_stage/src/sonar.cpp
 
-ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/sonar.cpp.i: cmake_force
+team07/amr_stage/CMakeFiles/stage.dir/src/sonar.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stage.dir/src/sonar.cpp.i"
-	cd /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_stage && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_stage/src/sonar.cpp > CMakeFiles/stage.dir/src/sonar.cpp.i
+	cd /home/kishaan/catkin_ws/src/team07/amr_stage && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kishaan/catkin_ws/src/team07/amr_stage/src/sonar.cpp > CMakeFiles/stage.dir/src/sonar.cpp.i
 
-ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/sonar.cpp.s: cmake_force
+team07/amr_stage/CMakeFiles/stage.dir/src/sonar.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stage.dir/src/sonar.cpp.s"
-	cd /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_stage && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_stage/src/sonar.cpp -o CMakeFiles/stage.dir/src/sonar.cpp.s
+	cd /home/kishaan/catkin_ws/src/team07/amr_stage && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kishaan/catkin_ws/src/team07/amr_stage/src/sonar.cpp -o CMakeFiles/stage.dir/src/sonar.cpp.s
 
-ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/sonar.cpp.o.requires:
-.PHONY : ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/sonar.cpp.o.requires
+team07/amr_stage/CMakeFiles/stage.dir/src/sonar.cpp.o.requires:
+.PHONY : team07/amr_stage/CMakeFiles/stage.dir/src/sonar.cpp.o.requires
 
-ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/sonar.cpp.o.provides: ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/sonar.cpp.o.requires
-	$(MAKE) -f ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/build.make ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/sonar.cpp.o.provides.build
-.PHONY : ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/sonar.cpp.o.provides
+team07/amr_stage/CMakeFiles/stage.dir/src/sonar.cpp.o.provides: team07/amr_stage/CMakeFiles/stage.dir/src/sonar.cpp.o.requires
+	$(MAKE) -f team07/amr_stage/CMakeFiles/stage.dir/build.make team07/amr_stage/CMakeFiles/stage.dir/src/sonar.cpp.o.provides.build
+.PHONY : team07/amr_stage/CMakeFiles/stage.dir/src/sonar.cpp.o.provides
 
-ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/sonar.cpp.o.provides.build: ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/sonar.cpp.o
+team07/amr_stage/CMakeFiles/stage.dir/src/sonar.cpp.o.provides.build: team07/amr_stage/CMakeFiles/stage.dir/src/sonar.cpp.o
 
-ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/base.cpp.o: ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/flags.make
-ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/base.cpp.o: ws17-kkisha2s/amr_stage/src/base.cpp
+team07/amr_stage/CMakeFiles/stage.dir/src/base.cpp.o: team07/amr_stage/CMakeFiles/stage.dir/flags.make
+team07/amr_stage/CMakeFiles/stage.dir/src/base.cpp.o: team07/amr_stage/src/base.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/kishaan/catkin_ws/src/CMakeFiles $(CMAKE_PROGRESS_5)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/base.cpp.o"
-	cd /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_stage && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/stage.dir/src/base.cpp.o -c /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_stage/src/base.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object team07/amr_stage/CMakeFiles/stage.dir/src/base.cpp.o"
+	cd /home/kishaan/catkin_ws/src/team07/amr_stage && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/stage.dir/src/base.cpp.o -c /home/kishaan/catkin_ws/src/team07/amr_stage/src/base.cpp
 
-ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/base.cpp.i: cmake_force
+team07/amr_stage/CMakeFiles/stage.dir/src/base.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stage.dir/src/base.cpp.i"
-	cd /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_stage && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_stage/src/base.cpp > CMakeFiles/stage.dir/src/base.cpp.i
+	cd /home/kishaan/catkin_ws/src/team07/amr_stage && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kishaan/catkin_ws/src/team07/amr_stage/src/base.cpp > CMakeFiles/stage.dir/src/base.cpp.i
 
-ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/base.cpp.s: cmake_force
+team07/amr_stage/CMakeFiles/stage.dir/src/base.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stage.dir/src/base.cpp.s"
-	cd /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_stage && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_stage/src/base.cpp -o CMakeFiles/stage.dir/src/base.cpp.s
+	cd /home/kishaan/catkin_ws/src/team07/amr_stage && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kishaan/catkin_ws/src/team07/amr_stage/src/base.cpp -o CMakeFiles/stage.dir/src/base.cpp.s
 
-ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/base.cpp.o.requires:
-.PHONY : ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/base.cpp.o.requires
+team07/amr_stage/CMakeFiles/stage.dir/src/base.cpp.o.requires:
+.PHONY : team07/amr_stage/CMakeFiles/stage.dir/src/base.cpp.o.requires
 
-ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/base.cpp.o.provides: ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/base.cpp.o.requires
-	$(MAKE) -f ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/build.make ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/base.cpp.o.provides.build
-.PHONY : ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/base.cpp.o.provides
+team07/amr_stage/CMakeFiles/stage.dir/src/base.cpp.o.provides: team07/amr_stage/CMakeFiles/stage.dir/src/base.cpp.o.requires
+	$(MAKE) -f team07/amr_stage/CMakeFiles/stage.dir/build.make team07/amr_stage/CMakeFiles/stage.dir/src/base.cpp.o.provides.build
+.PHONY : team07/amr_stage/CMakeFiles/stage.dir/src/base.cpp.o.provides
 
-ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/base.cpp.o.provides.build: ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/base.cpp.o
+team07/amr_stage/CMakeFiles/stage.dir/src/base.cpp.o.provides.build: team07/amr_stage/CMakeFiles/stage.dir/src/base.cpp.o
 
 # Object files for target stage
 stage_OBJECTS = \
@@ -175,12 +175,12 @@ stage_OBJECTS = \
 # External object files for target stage
 stage_EXTERNAL_OBJECTS =
 
-/home/kishaan/catkin_ws/devel/lib/amr_stage/stage: ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/nodes/stage.cpp.o
-/home/kishaan/catkin_ws/devel/lib/amr_stage/stage: ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/ranger.cpp.o
-/home/kishaan/catkin_ws/devel/lib/amr_stage/stage: ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/laser.cpp.o
-/home/kishaan/catkin_ws/devel/lib/amr_stage/stage: ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/sonar.cpp.o
-/home/kishaan/catkin_ws/devel/lib/amr_stage/stage: ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/base.cpp.o
-/home/kishaan/catkin_ws/devel/lib/amr_stage/stage: ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/build.make
+/home/kishaan/catkin_ws/devel/lib/amr_stage/stage: team07/amr_stage/CMakeFiles/stage.dir/nodes/stage.cpp.o
+/home/kishaan/catkin_ws/devel/lib/amr_stage/stage: team07/amr_stage/CMakeFiles/stage.dir/src/ranger.cpp.o
+/home/kishaan/catkin_ws/devel/lib/amr_stage/stage: team07/amr_stage/CMakeFiles/stage.dir/src/laser.cpp.o
+/home/kishaan/catkin_ws/devel/lib/amr_stage/stage: team07/amr_stage/CMakeFiles/stage.dir/src/sonar.cpp.o
+/home/kishaan/catkin_ws/devel/lib/amr_stage/stage: team07/amr_stage/CMakeFiles/stage.dir/src/base.cpp.o
+/home/kishaan/catkin_ws/devel/lib/amr_stage/stage: team07/amr_stage/CMakeFiles/stage.dir/build.make
 /home/kishaan/catkin_ws/devel/lib/amr_stage/stage: /opt/ros/indigo/lib/libstage.so
 /home/kishaan/catkin_ws/devel/lib/amr_stage/stage: /usr/lib/x86_64-linux-gnu/libGL.so
 /home/kishaan/catkin_ws/devel/lib/amr_stage/stage: /usr/lib/x86_64-linux-gnu/libSM.so
@@ -256,26 +256,26 @@ stage_EXTERNAL_OBJECTS =
 /home/kishaan/catkin_ws/devel/lib/amr_stage/stage: /opt/ros/indigo/lib/libcpp_common.so
 /home/kishaan/catkin_ws/devel/lib/amr_stage/stage: /usr/lib/x86_64-linux-gnu/libboost_system.so
 /home/kishaan/catkin_ws/devel/lib/amr_stage/stage: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/kishaan/catkin_ws/devel/lib/amr_stage/stage: ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/link.txt
+/home/kishaan/catkin_ws/devel/lib/amr_stage/stage: team07/amr_stage/CMakeFiles/stage.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable /home/kishaan/catkin_ws/devel/lib/amr_stage/stage"
-	cd /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_stage && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/stage.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/kishaan/catkin_ws/src/team07/amr_stage && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/stage.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/build: /home/kishaan/catkin_ws/devel/lib/amr_stage/stage
-.PHONY : ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/build
+team07/amr_stage/CMakeFiles/stage.dir/build: /home/kishaan/catkin_ws/devel/lib/amr_stage/stage
+.PHONY : team07/amr_stage/CMakeFiles/stage.dir/build
 
-ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/requires: ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/nodes/stage.cpp.o.requires
-ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/requires: ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/ranger.cpp.o.requires
-ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/requires: ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/laser.cpp.o.requires
-ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/requires: ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/sonar.cpp.o.requires
-ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/requires: ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/base.cpp.o.requires
-.PHONY : ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/requires
+team07/amr_stage/CMakeFiles/stage.dir/requires: team07/amr_stage/CMakeFiles/stage.dir/nodes/stage.cpp.o.requires
+team07/amr_stage/CMakeFiles/stage.dir/requires: team07/amr_stage/CMakeFiles/stage.dir/src/ranger.cpp.o.requires
+team07/amr_stage/CMakeFiles/stage.dir/requires: team07/amr_stage/CMakeFiles/stage.dir/src/laser.cpp.o.requires
+team07/amr_stage/CMakeFiles/stage.dir/requires: team07/amr_stage/CMakeFiles/stage.dir/src/sonar.cpp.o.requires
+team07/amr_stage/CMakeFiles/stage.dir/requires: team07/amr_stage/CMakeFiles/stage.dir/src/base.cpp.o.requires
+.PHONY : team07/amr_stage/CMakeFiles/stage.dir/requires
 
-ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/clean:
-	cd /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_stage && $(CMAKE_COMMAND) -P CMakeFiles/stage.dir/cmake_clean.cmake
-.PHONY : ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/clean
+team07/amr_stage/CMakeFiles/stage.dir/clean:
+	cd /home/kishaan/catkin_ws/src/team07/amr_stage && $(CMAKE_COMMAND) -P CMakeFiles/stage.dir/cmake_clean.cmake
+.PHONY : team07/amr_stage/CMakeFiles/stage.dir/clean
 
-ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/depend:
-	cd /home/kishaan/catkin_ws/src && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kishaan/catkin_ws/src /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_stage /home/kishaan/catkin_ws/src /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_stage /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/depend
+team07/amr_stage/CMakeFiles/stage.dir/depend:
+	cd /home/kishaan/catkin_ws/src && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kishaan/catkin_ws/src /home/kishaan/catkin_ws/src/team07/amr_stage /home/kishaan/catkin_ws/src /home/kishaan/catkin_ws/src/team07/amr_stage /home/kishaan/catkin_ws/src/team07/amr_stage/CMakeFiles/stage.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : team07/amr_stage/CMakeFiles/stage.dir/depend
 

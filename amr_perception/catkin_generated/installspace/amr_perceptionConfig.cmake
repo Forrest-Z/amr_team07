@@ -67,7 +67,7 @@ set(amr_perception_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(amr_perception_SOURCE_PREFIX /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_perception)
+  set(amr_perception_SOURCE_PREFIX /home/kishaan/catkin_ws/src/team07/amr_perception)
   set(amr_perception_DEVEL_PREFIX /home/kishaan/catkin_ws/devel)
   set(amr_perception_INSTALL_PREFIX "")
   set(amr_perception_PREFIX ${amr_perception_DEVEL_PREFIX})

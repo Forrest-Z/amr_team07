@@ -17,8 +17,8 @@ SET(CMAKE_TARGET_LINKED_INFO_FILES
 # The include file search paths:
 SET(CMAKE_C_TARGET_INCLUDE_PATH
   "/home/kishaan/catkin_ws/devel/include"
-  "ws17-kkisha2s/amr_bugs/include"
-  "ws17-kkisha2s/amr_bugs/cfg/cpp"
+  "team07/amr_bugs/include"
+  "team07/amr_bugs/cfg/cpp"
   "/opt/ros/indigo/include"
   "/usr/include/eigen3"
   )

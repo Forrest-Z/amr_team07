@@ -4,11 +4,11 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_stage/nodes/stage.cpp" "/home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/nodes/stage.cpp.o"
-  "/home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_stage/src/base.cpp" "/home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/base.cpp.o"
-  "/home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_stage/src/laser.cpp" "/home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/laser.cpp.o"
-  "/home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_stage/src/ranger.cpp" "/home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/ranger.cpp.o"
-  "/home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_stage/src/sonar.cpp" "/home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/sonar.cpp.o"
+  "/home/kishaan/catkin_ws/src/team07/amr_stage/nodes/stage.cpp" "/home/kishaan/catkin_ws/src/team07/amr_stage/CMakeFiles/stage.dir/nodes/stage.cpp.o"
+  "/home/kishaan/catkin_ws/src/team07/amr_stage/src/base.cpp" "/home/kishaan/catkin_ws/src/team07/amr_stage/CMakeFiles/stage.dir/src/base.cpp.o"
+  "/home/kishaan/catkin_ws/src/team07/amr_stage/src/laser.cpp" "/home/kishaan/catkin_ws/src/team07/amr_stage/CMakeFiles/stage.dir/src/laser.cpp.o"
+  "/home/kishaan/catkin_ws/src/team07/amr_stage/src/ranger.cpp" "/home/kishaan/catkin_ws/src/team07/amr_stage/CMakeFiles/stage.dir/src/ranger.cpp.o"
+  "/home/kishaan/catkin_ws/src/team07/amr_stage/src/sonar.cpp" "/home/kishaan/catkin_ws/src/team07/amr_stage/CMakeFiles/stage.dir/src/sonar.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -26,8 +26,8 @@ SET(CMAKE_TARGET_LINKED_INFO_FILES
 # The include file search paths:
 SET(CMAKE_C_TARGET_INCLUDE_PATH
   "/home/kishaan/catkin_ws/devel/include"
-  "ws17-kkisha2s/amr_stage/include"
-  "ws17-kkisha2s/amr_stage/cfg/cpp"
+  "team07/amr_stage/include"
+  "team07/amr_stage/cfg/cpp"
   "/opt/ros/indigo/include"
   "/usr/include/eigen3"
   "/opt/ros/indigo/include/Stage-4.1"

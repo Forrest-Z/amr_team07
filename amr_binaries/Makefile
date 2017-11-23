@@ -120,14 +120,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/kishaan/catkin_ws/src && $(CMAKE_COMMAND) -E cmake_progress_start /home/kishaan/catkin_ws/src/CMakeFiles /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_binaries/CMakeFiles/progress.marks
-	cd /home/kishaan/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 ws17-kkisha2s/amr_binaries/all
+	cd /home/kishaan/catkin_ws/src && $(CMAKE_COMMAND) -E cmake_progress_start /home/kishaan/catkin_ws/src/CMakeFiles /home/kishaan/catkin_ws/src/team07/amr_binaries/CMakeFiles/progress.marks
+	cd /home/kishaan/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 team07/amr_binaries/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/kishaan/catkin_ws/src/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/kishaan/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 ws17-kkisha2s/amr_binaries/clean
+	cd /home/kishaan/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 team07/amr_binaries/clean
 .PHONY : clean
 
 # The main clean target
@@ -136,12 +136,12 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/kishaan/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 ws17-kkisha2s/amr_binaries/preinstall
+	cd /home/kishaan/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 team07/amr_binaries/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/kishaan/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 ws17-kkisha2s/amr_binaries/preinstall
+	cd /home/kishaan/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 team07/amr_binaries/preinstall
 .PHONY : preinstall/fast
 
 # clear depends

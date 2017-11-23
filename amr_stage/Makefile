@@ -120,14 +120,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/kishaan/catkin_ws/src && $(CMAKE_COMMAND) -E cmake_progress_start /home/kishaan/catkin_ws/src/CMakeFiles /home/kishaan/catkin_ws/src/ws17-kkisha2s/amr_stage/CMakeFiles/progress.marks
-	cd /home/kishaan/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 ws17-kkisha2s/amr_stage/all
+	cd /home/kishaan/catkin_ws/src && $(CMAKE_COMMAND) -E cmake_progress_start /home/kishaan/catkin_ws/src/CMakeFiles /home/kishaan/catkin_ws/src/team07/amr_stage/CMakeFiles/progress.marks
+	cd /home/kishaan/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 team07/amr_stage/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/kishaan/catkin_ws/src/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/kishaan/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 ws17-kkisha2s/amr_stage/clean
+	cd /home/kishaan/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 team07/amr_stage/clean
 .PHONY : clean
 
 # The main clean target
@@ -136,12 +136,12 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/kishaan/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 ws17-kkisha2s/amr_stage/preinstall
+	cd /home/kishaan/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 team07/amr_stage/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/kishaan/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 ws17-kkisha2s/amr_stage/preinstall
+	cd /home/kishaan/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 team07/amr_stage/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
@@ -150,31 +150,31 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-ws17-kkisha2s/amr_stage/CMakeFiles/amr_stage_gencfg.dir/rule:
-	cd /home/kishaan/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 ws17-kkisha2s/amr_stage/CMakeFiles/amr_stage_gencfg.dir/rule
-.PHONY : ws17-kkisha2s/amr_stage/CMakeFiles/amr_stage_gencfg.dir/rule
+team07/amr_stage/CMakeFiles/amr_stage_gencfg.dir/rule:
+	cd /home/kishaan/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 team07/amr_stage/CMakeFiles/amr_stage_gencfg.dir/rule
+.PHONY : team07/amr_stage/CMakeFiles/amr_stage_gencfg.dir/rule
 
 # Convenience name for target.
-amr_stage_gencfg: ws17-kkisha2s/amr_stage/CMakeFiles/amr_stage_gencfg.dir/rule
+amr_stage_gencfg: team07/amr_stage/CMakeFiles/amr_stage_gencfg.dir/rule
 .PHONY : amr_stage_gencfg
 
 # fast build rule for target.
 amr_stage_gencfg/fast:
-	cd /home/kishaan/catkin_ws/src && $(MAKE) -f ws17-kkisha2s/amr_stage/CMakeFiles/amr_stage_gencfg.dir/build.make ws17-kkisha2s/amr_stage/CMakeFiles/amr_stage_gencfg.dir/build
+	cd /home/kishaan/catkin_ws/src && $(MAKE) -f team07/amr_stage/CMakeFiles/amr_stage_gencfg.dir/build.make team07/amr_stage/CMakeFiles/amr_stage_gencfg.dir/build
 .PHONY : amr_stage_gencfg/fast
 
 # Convenience name for target.
-ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/rule:
-	cd /home/kishaan/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/rule
-.PHONY : ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/rule
+team07/amr_stage/CMakeFiles/stage.dir/rule:
+	cd /home/kishaan/catkin_ws/src && $(MAKE) -f CMakeFiles/Makefile2 team07/amr_stage/CMakeFiles/stage.dir/rule
+.PHONY : team07/amr_stage/CMakeFiles/stage.dir/rule
 
 # Convenience name for target.
-stage: ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/rule
+stage: team07/amr_stage/CMakeFiles/stage.dir/rule
 .PHONY : stage
 
 # fast build rule for target.
 stage/fast:
-	cd /home/kishaan/catkin_ws/src && $(MAKE) -f ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/build.make ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/build
+	cd /home/kishaan/catkin_ws/src && $(MAKE) -f team07/amr_stage/CMakeFiles/stage.dir/build.make team07/amr_stage/CMakeFiles/stage.dir/build
 .PHONY : stage/fast
 
 nodes/stage.o: nodes/stage.cpp.o
@@ -182,7 +182,7 @@ nodes/stage.o: nodes/stage.cpp.o
 
 # target to build an object file
 nodes/stage.cpp.o:
-	cd /home/kishaan/catkin_ws/src && $(MAKE) -f ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/build.make ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/nodes/stage.cpp.o
+	cd /home/kishaan/catkin_ws/src && $(MAKE) -f team07/amr_stage/CMakeFiles/stage.dir/build.make team07/amr_stage/CMakeFiles/stage.dir/nodes/stage.cpp.o
 .PHONY : nodes/stage.cpp.o
 
 nodes/stage.i: nodes/stage.cpp.i
@@ -190,7 +190,7 @@ nodes/stage.i: nodes/stage.cpp.i
 
 # target to preprocess a source file
 nodes/stage.cpp.i:
-	cd /home/kishaan/catkin_ws/src && $(MAKE) -f ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/build.make ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/nodes/stage.cpp.i
+	cd /home/kishaan/catkin_ws/src && $(MAKE) -f team07/amr_stage/CMakeFiles/stage.dir/build.make team07/amr_stage/CMakeFiles/stage.dir/nodes/stage.cpp.i
 .PHONY : nodes/stage.cpp.i
 
 nodes/stage.s: nodes/stage.cpp.s
@@ -198,7 +198,7 @@ nodes/stage.s: nodes/stage.cpp.s
 
 # target to generate assembly for a file
 nodes/stage.cpp.s:
-	cd /home/kishaan/catkin_ws/src && $(MAKE) -f ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/build.make ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/nodes/stage.cpp.s
+	cd /home/kishaan/catkin_ws/src && $(MAKE) -f team07/amr_stage/CMakeFiles/stage.dir/build.make team07/amr_stage/CMakeFiles/stage.dir/nodes/stage.cpp.s
 .PHONY : nodes/stage.cpp.s
 
 src/base.o: src/base.cpp.o
@@ -206,7 +206,7 @@ src/base.o: src/base.cpp.o
 
 # target to build an object file
 src/base.cpp.o:
-	cd /home/kishaan/catkin_ws/src && $(MAKE) -f ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/build.make ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/base.cpp.o
+	cd /home/kishaan/catkin_ws/src && $(MAKE) -f team07/amr_stage/CMakeFiles/stage.dir/build.make team07/amr_stage/CMakeFiles/stage.dir/src/base.cpp.o
 .PHONY : src/base.cpp.o
 
 src/base.i: src/base.cpp.i
@@ -214,7 +214,7 @@ src/base.i: src/base.cpp.i
 
 # target to preprocess a source file
 src/base.cpp.i:
-	cd /home/kishaan/catkin_ws/src && $(MAKE) -f ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/build.make ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/base.cpp.i
+	cd /home/kishaan/catkin_ws/src && $(MAKE) -f team07/amr_stage/CMakeFiles/stage.dir/build.make team07/amr_stage/CMakeFiles/stage.dir/src/base.cpp.i
 .PHONY : src/base.cpp.i
 
 src/base.s: src/base.cpp.s
@@ -222,7 +222,7 @@ src/base.s: src/base.cpp.s
 
 # target to generate assembly for a file
 src/base.cpp.s:
-	cd /home/kishaan/catkin_ws/src && $(MAKE) -f ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/build.make ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/base.cpp.s
+	cd /home/kishaan/catkin_ws/src && $(MAKE) -f team07/amr_stage/CMakeFiles/stage.dir/build.make team07/amr_stage/CMakeFiles/stage.dir/src/base.cpp.s
 .PHONY : src/base.cpp.s
 
 src/laser.o: src/laser.cpp.o
@@ -230,7 +230,7 @@ src/laser.o: src/laser.cpp.o
 
 # target to build an object file
 src/laser.cpp.o:
-	cd /home/kishaan/catkin_ws/src && $(MAKE) -f ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/build.make ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/laser.cpp.o
+	cd /home/kishaan/catkin_ws/src && $(MAKE) -f team07/amr_stage/CMakeFiles/stage.dir/build.make team07/amr_stage/CMakeFiles/stage.dir/src/laser.cpp.o
 .PHONY : src/laser.cpp.o
 
 src/laser.i: src/laser.cpp.i
@@ -238,7 +238,7 @@ src/laser.i: src/laser.cpp.i
 
 # target to preprocess a source file
 src/laser.cpp.i:
-	cd /home/kishaan/catkin_ws/src && $(MAKE) -f ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/build.make ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/laser.cpp.i
+	cd /home/kishaan/catkin_ws/src && $(MAKE) -f team07/amr_stage/CMakeFiles/stage.dir/build.make team07/amr_stage/CMakeFiles/stage.dir/src/laser.cpp.i
 .PHONY : src/laser.cpp.i
 
 src/laser.s: src/laser.cpp.s
@@ -246,7 +246,7 @@ src/laser.s: src/laser.cpp.s
 
 # target to generate assembly for a file
 src/laser.cpp.s:
-	cd /home/kishaan/catkin_ws/src && $(MAKE) -f ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/build.make ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/laser.cpp.s
+	cd /home/kishaan/catkin_ws/src && $(MAKE) -f team07/amr_stage/CMakeFiles/stage.dir/build.make team07/amr_stage/CMakeFiles/stage.dir/src/laser.cpp.s
 .PHONY : src/laser.cpp.s
 
 src/ranger.o: src/ranger.cpp.o
@@ -254,7 +254,7 @@ src/ranger.o: src/ranger.cpp.o
 
 # target to build an object file
 src/ranger.cpp.o:
-	cd /home/kishaan/catkin_ws/src && $(MAKE) -f ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/build.make ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/ranger.cpp.o
+	cd /home/kishaan/catkin_ws/src && $(MAKE) -f team07/amr_stage/CMakeFiles/stage.dir/build.make team07/amr_stage/CMakeFiles/stage.dir/src/ranger.cpp.o
 .PHONY : src/ranger.cpp.o
 
 src/ranger.i: src/ranger.cpp.i
@@ -262,7 +262,7 @@ src/ranger.i: src/ranger.cpp.i
 
 # target to preprocess a source file
 src/ranger.cpp.i:
-	cd /home/kishaan/catkin_ws/src && $(MAKE) -f ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/build.make ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/ranger.cpp.i
+	cd /home/kishaan/catkin_ws/src && $(MAKE) -f team07/amr_stage/CMakeFiles/stage.dir/build.make team07/amr_stage/CMakeFiles/stage.dir/src/ranger.cpp.i
 .PHONY : src/ranger.cpp.i
 
 src/ranger.s: src/ranger.cpp.s
@@ -270,7 +270,7 @@ src/ranger.s: src/ranger.cpp.s
 
 # target to generate assembly for a file
 src/ranger.cpp.s:
-	cd /home/kishaan/catkin_ws/src && $(MAKE) -f ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/build.make ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/ranger.cpp.s
+	cd /home/kishaan/catkin_ws/src && $(MAKE) -f team07/amr_stage/CMakeFiles/stage.dir/build.make team07/amr_stage/CMakeFiles/stage.dir/src/ranger.cpp.s
 .PHONY : src/ranger.cpp.s
 
 src/sonar.o: src/sonar.cpp.o
@@ -278,7 +278,7 @@ src/sonar.o: src/sonar.cpp.o
 
 # target to build an object file
 src/sonar.cpp.o:
-	cd /home/kishaan/catkin_ws/src && $(MAKE) -f ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/build.make ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/sonar.cpp.o
+	cd /home/kishaan/catkin_ws/src && $(MAKE) -f team07/amr_stage/CMakeFiles/stage.dir/build.make team07/amr_stage/CMakeFiles/stage.dir/src/sonar.cpp.o
 .PHONY : src/sonar.cpp.o
 
 src/sonar.i: src/sonar.cpp.i
@@ -286,7 +286,7 @@ src/sonar.i: src/sonar.cpp.i
 
 # target to preprocess a source file
 src/sonar.cpp.i:
-	cd /home/kishaan/catkin_ws/src && $(MAKE) -f ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/build.make ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/sonar.cpp.i
+	cd /home/kishaan/catkin_ws/src && $(MAKE) -f team07/amr_stage/CMakeFiles/stage.dir/build.make team07/amr_stage/CMakeFiles/stage.dir/src/sonar.cpp.i
 .PHONY : src/sonar.cpp.i
 
 src/sonar.s: src/sonar.cpp.s
@@ -294,7 +294,7 @@ src/sonar.s: src/sonar.cpp.s
 
 # target to generate assembly for a file
 src/sonar.cpp.s:
-	cd /home/kishaan/catkin_ws/src && $(MAKE) -f ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/build.make ws17-kkisha2s/amr_stage/CMakeFiles/stage.dir/src/sonar.cpp.s
+	cd /home/kishaan/catkin_ws/src && $(MAKE) -f team07/amr_stage/CMakeFiles/stage.dir/build.make team07/amr_stage/CMakeFiles/stage.dir/src/sonar.cpp.s
 .PHONY : src/sonar.cpp.s
 
 # Help Target
