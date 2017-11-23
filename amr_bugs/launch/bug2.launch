@@ -1,6 +1,9 @@
 <?xml version="1.0"?>
 <launch>
 
+	  <!-- TEST CHANGE IN MY BRANCH -->
+
+
   <!-- Stage node with "walls" world.
        The groundtruth map publishing is disabled because due to some bug the
        map is displayed in RViz with a wrong scale and thus is misleading. -->
