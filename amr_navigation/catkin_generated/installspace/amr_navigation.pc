@@ -1,0 +1,8 @@
+prefix=/home/kishaan/catkin_ws/install
+
+Name: amr_navigation
+Description: Description of amr_navigation
+Version: 1.0.0
+Cflags: 
+Libs: -L/home/kishaan/catkin_ws/install/lib 
+Requires: roscpp actionlib tf amr_msgs amr_srvs amr_stage
