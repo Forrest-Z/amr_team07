@@ -2,8 +2,12 @@
 
 PACKAGE = 'amr_navigation'
 
+<<<<<<< HEAD
 #import math
 from math import atan2, copysign, sqrt, cos, sin
+=======
+import math
+>>>>>>> 200a7975fe20c1cfce8f1c856f5d5430b60db789
 from velocity_controller import VelocityController, Velocity
 from velocity_controller import get_shortest_angle, get_distance
 
@@ -29,6 +33,7 @@ class OmniVelocityController(VelocityController):
 
     ==================================================================
 
+<<<<<<< HEAD
     """
 
     
@@ -134,3 +139,6 @@ class OmniVelocityController(VelocityController):
         return Velocity(copysign(linear_vel_x, dx),
                         copysign(linear_vel_y, dy),
                         copysign(angular_vel, angular_dist))
+=======
+    """
+>>>>>>> 200a7975fe20c1cfce8f1c856f5d5430b60db789

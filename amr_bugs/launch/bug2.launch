@@ -1,9 +1,12 @@
 <?xml version="1.0"?>
 <launch>
 
+<<<<<<< HEAD
 	  <!-- TEST CHANGE IN MY BRANCH -->
 
 
+=======
+>>>>>>> 200a7975fe20c1cfce8f1c856f5d5430b60db789
   <!-- Stage node with "walls" world.
        The groundtruth map publishing is disabled because due to some bug the
        map is displayed in RViz with a wrong scale and thus is misleading. -->
@@ -16,7 +19,11 @@
   <node pkg="amr_bugs" type="bug2.py" name="bug2" output="screen" required="true"/>
 
   <!-- Wallfollower node, start disabled -->
+<<<<<<< HEAD
   <node pkg="amr_binaries" type="wallfollower" name="wallfollower" required="true">
+=======
+  <node pkg="amr_bugs" type="wallfollower.py" name="wallfollower" required="true">
+>>>>>>> 200a7975fe20c1cfce8f1c856f5d5430b60db789
     <param name="enable_at_startup" value="false" type="bool"/>
   </node>
 

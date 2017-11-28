@@ -1,4 +1,8 @@
 #!/usr/bin/env python
+<<<<<<< HEAD
+=======
+
+>>>>>>> 200a7975fe20c1cfce8f1c856f5d5430b60db789
 PACKAGE = 'amr_navigation'
 NODE = 'motion_controller'
 
@@ -61,6 +65,7 @@ class MotionControllerNode:
             conform to what you have implemented in that class.
             
             """
+<<<<<<< HEAD
             self._velocity_controller = OmniVelocityController(max_linear_velocity,
                                                                linear_tolerance,
                                                                max_angular_velocity,
@@ -69,6 +74,8 @@ class MotionControllerNode:
                                                                max_angular_acceleration)
 
 
+=======
+>>>>>>> 200a7975fe20c1cfce8f1c856f5d5430b60db789
         elif controller_type == self.CONTROLLER_TYPE_UNSPECIFIED:
             rospy.logerr('Controller type not specified. '
                          'Check the [controller] launch parameter')
