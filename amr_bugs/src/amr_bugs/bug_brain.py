@@ -43,37 +43,28 @@
 #           self.ln_one = (p1, p2)
 #           self.ln_two = [p1, p2]
 #           self.ln_three = Line.from_points([p1, p2]) # if you are using 'planar'
-<<<<<<< HEAD
 from planar import Point, Vec2
 from planar.c import Line
 import rospy
 
-=======
->>>>>>> 200a7975fe20c1cfce8f1c856f5d5430b60db789
 
 class BugBrain:
 
     TOLERANCE = 0.3
 
     def __init__(self, goal_x, goal_y, side):
-<<<<<<< HEAD
-        
+
         self.wp_goal=Vec2(goal_x,goal_y)
         self.obstacle_starting_points=[]
         self.obstacle_ending_points=[]
         self.time = rospy.get_rostime()
 
-        
-=======
-        pass
 
->>>>>>> 200a7975fe20c1cfce8f1c856f5d5430b60db789
     def follow_wall(self, x, y, theta):
         """
         This function is called when the state machine enters the wallfollower
         state.
         """
-<<<<<<< HEAD
         #checking whetre new point is already in the list if not add it
         self.wp_obstacle_start=Vec2(x,y)
         is_following=True
@@ -82,19 +73,16 @@ class BugBrain:
             wp_new_point=self.obstacle_starting_points[x][0]
             if abs(wp_new_point.distance_to( self.wp_obstacle_start)<=1):
                 is_following=False
-     
-        if (is_following==True) :     
+
+        if (is_following==True) :
             self.obstacle_starting_points.append((self.wp_obstacle_start,0))
-        
+
         self.time = rospy.get_rostime()
-        
+
         #line for checking the position
         if len(self.obstacle_ending_points)<1:
             self.ln_line_to_goal=Line.from_points([self.wp_obstacle_start, self.wp_goal])
-            
-=======
-        # compute and store necessary variables
->>>>>>> 200a7975fe20c1cfce8f1c856f5d5430b60db789
+
         pass
 
     def leave_wall(self, x, y, theta):
@@ -103,11 +91,8 @@ class BugBrain:
         state.
         """
         # compute and store necessary variables
-<<<<<<< HEAD
-  
+
         #self.wp_end_obstacle=Vec2(x,y)
-=======
->>>>>>> 200a7975fe20c1cfce8f1c856f5d5430b60db789
         pass
 
     def is_goal_unreachable(self, x, y, theta):
@@ -115,13 +100,12 @@ class BugBrain:
         This function is regularly called from the wallfollower state to check
         the brain's belief about whether the goal is unreachable.
         """
-<<<<<<< HEAD
         self.current_position=Vec2(x,y)
         #time is needed as same points are written repeatedly
         next_time = rospy.get_rostime()
         time_diff=abs(self.time.secs-next_time.secs)
 
-        #cheking if goal is reachable after it goes aroung trice  
+        #cheking if goal is reachable after it goes aroung trice
         for x in range(len(self.obstacle_starting_points)):
             wp_new_point=self.obstacle_starting_points[x][0]
             if abs(time_diff>20 and wp_new_point.distance_to(self.current_position)<=self.TOLERANCE):
@@ -130,9 +114,7 @@ class BugBrain:
                 if (self.obstacle_starting_points[x][1]>2):
                     return True
 
-         
-=======
->>>>>>> 200a7975fe20c1cfce8f1c856f5d5430b60db789
+
         return False
 
     def is_time_to_leave_wall(self, x, y, theta):
@@ -141,28 +123,22 @@ class BugBrain:
         the brain's belief about whether it is the right time (or place) to
         leave the wall and move straight to the goal.
         """
-<<<<<<< HEAD
 
         self.wp_current_position=Vec2(x,y)
-        
+
         #check path hasnt been taken earlier if so keep following the wall or leave wall otherwise
-        if (abs(self.ln_line_to_goal.distance_to(self.wp_current_position))<=self.TOLERANCE and 
+        if (abs(self.ln_line_to_goal.distance_to(self.wp_current_position))<=self.TOLERANCE and
                     abs(self.wp_current_position.distance_to(self.wp_obstacle_start))>1):
             is_following=True
-            
+
             for x in range(len(self.obstacle_ending_points)):
                 wp_new_point=self.obstacle_ending_points[x]
                 if (abs(wp_new_point.distance_to(self.wp_current_position))<=1):
                     is_following=False
-                    break 
+                    break
 
             if(is_following==True):
                 self.obstacle_ending_points.append(self.wp_current_position)
                 return True
-            
-        return False
-=======
-        return False
 
-#==============================================================================
->>>>>>> 200a7975fe20c1cfce8f1c856f5d5430b60db789
+        return False

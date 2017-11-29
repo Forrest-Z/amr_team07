@@ -9,34 +9,19 @@ include "../models/map.inc"
 # time to pause (in GUI mode) or quit (in headless mode (-g)) the simulation
 quit_time 3600 # 1 hour of simulated time
 
-<<<<<<< HEAD
 paused 0
 
 resolution 0.02
 
 speedup 1.000
-=======
-paused 1
-
-resolution 0.02
-
-speedup 1.0
->>>>>>> 200a7975fe20c1cfce8f1c856f5d5430b60db789
 
 # configure the GUI window
 window
 (
-<<<<<<< HEAD
   size [ 594 622 ] # in pixels
   scale 36.995   # pixels per meter
   center [ 0.000 0.000 ]
   rotate [ 0.000 0.000 ]
-=======
-  size [ 594.000 622.000 ] # in pixels
-  scale 36.995   # pixels per meter
-  center [ 0 0 ]
-  rotate [ 0 0 ]
->>>>>>> 200a7975fe20c1cfce8f1c856f5d5430b60db789
   show_data 1
 )
 
@@ -46,11 +31,7 @@ floorplan
   name "cave"
   boundary 0
   size [16.000 16.000 0.800]
-<<<<<<< HEAD
   pose [0.000 0.000 0.000 0.000]
-=======
-  pose [0 0 0 0]
->>>>>>> 200a7975fe20c1cfce8f1c856f5d5430b60db789
   bitmap "../bitmaps/cave.png"
 )
 
@@ -58,17 +39,9 @@ youbot
 (
   # can refer to the robot by this name
   name "robot1"
-<<<<<<< HEAD
   pose [ -6.500 -6.500 0.000 45.000 ]
 
   hokuyolaser( pose [ 0.320 0.000 -0.120 0.000 ] )
   p2dx_sonar( pose [0.000 0.000 0.000 0.000] )
   braitenberg_sonar( pose [0.000 0.000 -0.030 0.000] )
-=======
-  pose [ -6.5 -6.5 0 45.000 ]
-
-  hokuyolaser( pose [ 0.32 0 -0.12 0 ] )
-  p2dx_sonar( pose [0 0 0 0] )
-  braitenberg_sonar( pose [0 0 -0.03 0] )
->>>>>>> 200a7975fe20c1cfce8f1c856f5d5430b60db789
 )

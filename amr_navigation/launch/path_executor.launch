@@ -14,15 +14,16 @@
 
   <!-- Wallfollower node, start disabled -->
   <node pkg="amr_bugs" type="wallfollower.py" name="wallfollower" required="true">
+  <!-- <node pkg="amr_binaries" type="wallfollower" name="wallfollower" required="true"> -->
     <param name="enable_at_startup" value="false" type="bool"/>
   </node>
 
   <!-- Motion controller node with "omni" velocity controller -->
-  <node pkg="amr_navigation" type="motion_controller" name="motion_controller" required="true">
+  <node pkg="amr_navigation" type="motion_controller.py" name="motion_controller" required="true">
     <param name="controller" value="omni" type="str"/>
   </node>
 
   <!-- Obstacle detector node -->
-  <node pkg="amr_perception" type="obstacle_detector" name="obstacle_detector" required="true"/>
+  <node pkg="amr_perception" type="obstacle_detector" name="obstacle_detector" required="True"/>
 
 </launch>
