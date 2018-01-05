@@ -1,0 +1,8 @@
+prefix=/home/kishaan/catkin_ws/install
+
+Name: amr_mapping
+Description: Description of amr_mapping
+Version: 1.0.0
+Cflags: -I/home/kishaan/catkin_ws/install/include
+Libs: -L/home/kishaan/catkin_ws/install/lib -lmap_store_py
+Requires: roscpp nav_msgs tf amr_msgs amr_srvs amr_stage

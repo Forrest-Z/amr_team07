@@ -1,0 +1,6 @@
+set(amr_mapping_SETUP_PY_VERSION "1.0.0")
+set(amr_mapping_SETUP_PY_SCRIPTS "")
+set(amr_mapping_SETUP_PY_PACKAGES "amr_mapping")
+set(amr_mapping_SETUP_PY_PACKAGE_DIRS "src/amr_mapping")
+set(amr_mapping_SETUP_PY_MODULES "")
+set(amr_mapping_SETUP_PY_MODULE_DIRS "")

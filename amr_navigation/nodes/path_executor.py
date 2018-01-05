@@ -21,17 +21,7 @@ class PathExecutor:
         # self._goal_publisher = Simple
         # self.pe_client_for_bug2= SimpleActionClient('/bug2/move_to',MoveToAction)
         # self.pe_client_for_bug2.wait_for_server()
-
-        # self.pe_client_for_bug2= SimpleActionClient('/bug2/move_to',MoveToAction)
-        # self.pe_client_for_bug2.wait_for_server()
-        # goal_one = MoveToGoal()
-        # goal_one.target_pose.pose.position.x = goal.path.poses[2].pose.position.x
-        # goal_one.target_pose.pose.position.y = goal.path.poses[2].pose.position.y
-        # goal_one.target_pose.pose.orientation.z = goal.path.poses[2].pose.orientation.z
-        # self.pe_client_for_bug2.send_goal(goal_one, done_cb = self.move_to_done_cb)
-
-
-        print "----------------- in __INIT__ ---------------------------------------"
+        print "----------------- in INIT ---------------------------------------"
         rospy.loginfo("Creating an action server")
         # Creating a client to perform the bug2 function
         self._move_to_client = SimpleActionClient('/bug2/move_to', MoveToAction)
@@ -66,7 +56,7 @@ class PathExecutor:
     	rospy.spin()
 
         # setting the server's preempted() function if it's requested
-    	while self.flag :
+    	while flag :
     		if self._as.is_preempt_requested():
     			rospy.loginfo('%s: Preempted' % self._action_name)
     			self._as.set_preempted()
@@ -74,17 +64,16 @@ class PathExecutor:
 
     def move_to_done_cb(self, state, result):
     	if(state == 3):
-            # Appending the boolean results to the visited and feedback lists
+            #
             self._result.visited.append(True)
             self._feedback.reached = True
             self._feedback.pose = self._pose
         elif(state == 4):
     		self._feedback.reached = False
-        # Publishing the feedback and result to the screen
+        #
     	rospy.loginfo(self._result)
     	self._as.publish_feedback(self._feedback)
     	if self.success == True:
-            # Checking the flag for the completion of the tasks and ending the program
             print "All goals are considered"
             self._as.set_succeeded(self._result)
 
