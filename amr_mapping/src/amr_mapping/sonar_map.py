@@ -135,6 +135,7 @@ class SonarMap:
 		S = self._convert_to_cell(m_sonar)
 		# list to store the occ_kc values of each cell
 		occ_vals = []
+		# protecting against None type cells
 		if (S!= None):
 			cone = MapStoreCone(S[0], S[1], sonar_theta,
 								omega, int(round(R/self._resolution)))
@@ -158,6 +159,7 @@ class SonarMap:
 			for cell in cone:
 				# loop to set the cell values of free, occupied, and combined maps
 				P = self._convert_to_map(cell)
+				# protecting against None type cells
 				if (P != None):
 					# read in the initial values of the cell in each map
 					emp_init = self._map_free.get(int(cell[0]), int(cell[1]))
@@ -180,7 +182,9 @@ class SonarMap:
 						occ_kc = p_o * (1 - emp_init)
 						# sum of all the occ_kc values of cells covered by all the sensors
 						occ_sum = np.sum(occ_vals)
+						# update the occupied map only if we are sure that there is an obstacle and sum is not zero
 						if occ_sum != 0.0 and (R < max_range - 0.3):
+							# normalizing the probability over all the cells
 							occ_kn = occ_kc / occ_sum
 							occ_kn = self.clamp(occ_kn, 0.0, 1.0)
 							occ_init = (occ_init + occ_kn) - (occ_init * occ_kn)
