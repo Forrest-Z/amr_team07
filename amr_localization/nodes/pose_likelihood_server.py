@@ -51,20 +51,23 @@ class PoseLikelihoodServerNode:
 		self.p_client = rospy.ServiceProxy('/occupancy_query_server/get_nearest_occupied_point_on_beam', GetNearestOccupiedPointOnBeam)
 
 	def pose_cb(self, req):
-		likelihood_list = []
 		all_poses = req.poses
+		# initializing the likelihood list with zeros initially and updating only when
+		# the matches are good between the real values and simulated values
+		likelihood_list = list(np.zeros(len(all_poses)))
 		# iterating through each pose and calculating the likelihood values
-		for pose in all_poses:
+		for p, pose in enumerate(all_poses):
 			# initializing the values and counters
-			sigma = 0.3
+			# the values are chosen by trial and error while trying to achieve the best plot possible
+			sigma = 0.5
 			bad_matches = 0
 			acceptable_matches = 0
 			total_weight = 1
 			# converting the poses in robots team
 			beamposes = self.transform_poses(pose)
-
+			# getting the simulated readings/ranges
 			service_request = GetNearestOccupiedPointOnBeamRequest()
-			service_request.threshold = 4
+			service_request.threshold = 5
 			service_request.beams = beamposes
 			distances = self.p_client(service_request)
 
@@ -84,9 +87,7 @@ class PoseLikelihoodServerNode:
 					bad_matches = bad_matches + 1
 			# append the weight only if the number of bad matches is less than the acceptable number
 			if bad_matches < 5:
-				likelihood_list.append(total_weight)
-			else:
-				likelihood_list.append(0.0)
+				likelihood_list[p] = total_weight
 
 		likelihood_response = GetMultiplePoseLikelihoodResponse(likelihood_list)
 		return likelihood_response
