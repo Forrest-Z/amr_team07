@@ -1,0 +1,6 @@
+set(amr_localization_SETUP_PY_VERSION "1.0.0")
+set(amr_localization_SETUP_PY_SCRIPTS "")
+set(amr_localization_SETUP_PY_PACKAGES "amr_localization")
+set(amr_localization_SETUP_PY_PACKAGE_DIRS "src/amr_localization")
+set(amr_localization_SETUP_PY_MODULES "")
+set(amr_localization_SETUP_PY_MODULE_DIRS "")

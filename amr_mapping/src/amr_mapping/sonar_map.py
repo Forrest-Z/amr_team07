@@ -127,73 +127,69 @@ class SonarMap:
 
 		//============================================================================
 		"""
-		# reading in the given values
 		sigma = uncertainty
 		R = registered_range
 		omega = field_of_view
 		m_sonar = (m_sonar_x, m_sonar_y)
 		S = self._convert_to_cell(m_sonar)
-		# list to store the occ_kc values of each cell
+		cells = []
 		occ_vals = []
-		# protecting against None type cells
+		emp_vals = []
 		if (S!= None):
 			cone = MapStoreCone(S[0], S[1], sonar_theta,
 								omega, int(round(R/self._resolution)))
+			delta = 0.0
+			occ_sum = 0.0
 			for cell in cone:
-				# loop to calculate the occ_kc values of each and every cell which might be occupied
 				P = self._convert_to_map(cell)
 				if (P != None):
+					cells.append(cell)
+					p_e = 0.0
+					p_o = 0.0
 					emp_init = self._map_free.get(int(cell[0]), int(cell[1]))
-					# distance from sonar to the cell
+					occ_init = self._map_occupied.get(int(cell[0]), int(cell[1]))
+					com_init = self._map_combined.get(int(cell[0]), int(cell[1]))
 					delta = self.euclidian_distance(m_sonar_x, m_sonar_y, P[0], P[1])
-					# angle between the x axis and the line connecting sonar and the cell
 					angle_sp = math.acos(self.euclidian_distance(m_sonar_x, m_sonar_y, P[0], m_sonar_y)/delta)
-					# angle between the center beam of sonar sensor and line connecting sonar to the cell
 					theta = self.angular_distance(angle_sp, sonar_theta)
-					# calculate the probability that a cell is occupied if the condition for it satisfies
 					if (delta >= R - sigma) and (delta <= R + sigma) and (abs(theta) < omega/2.0):
 						p_o = self._er_occ(R, delta, sigma) * self._ea(omega, theta)
 						occ_kc = p_o * (1 - emp_init)
 						occ_vals.append(occ_kc)
 
+			# =================== SUMMING OVER ALL THE CELLS =============================
 			for cell in cone:
-				# loop to set the cell values of free, occupied, and combined maps
 				P = self._convert_to_map(cell)
-				# protecting against None type cells
 				if (P != None):
-					# read in the initial values of the cell in each map
+					cells.append(cell)
+					p_e = 0.0
+					p_o = 0.0
 					emp_init = self._map_free.get(int(cell[0]), int(cell[1]))
 					occ_init = self._map_occupied.get(int(cell[0]), int(cell[1]))
 					com_init = self._map_combined.get(int(cell[0]), int(cell[1]))
-					# distance from sonar to the cell
 					delta = self.euclidian_distance(m_sonar_x, m_sonar_y, P[0], P[1])
-					# angle between the x axis and the line connecting sonar and the cell
 					angle_sp = math.acos(self.euclidian_distance(m_sonar_x, m_sonar_y, P[0], m_sonar_y)/delta)
-					# angle between the center beam of sonar sensor and line connecting sonar to the cell
 					theta = self.angular_distance(angle_sp, sonar_theta)
-					#Computing and setting the probablility for free space
+					#Computing Probablility for free space
 					if (delta < R - sigma) and (abs(theta) < (omega/2.0)):
 						p_e = self._er_free(R, delta, sigma) * self._ea(omega, theta)
 						emp_init = (emp_init + p_e) - (emp_init * p_e)
+						emp_vals.append(emp_init)
 						self._map_free.set(int(round(cell[0])), int(round(cell[1])), emp_init)
-					#Computing and setting probablility for occupied space
+					#Computing Probablility for occupied space
 					if (delta >= R - sigma) and (delta <= R + sigma) and (abs(theta) < omega/2.0):
 						p_o = self._er_occ(R, delta, sigma) * self._ea(omega, theta)
 						occ_kc = p_o * (1 - emp_init)
-						# sum of all the occ_kc values of cells covered by all the sensors
 						occ_sum = np.sum(occ_vals)
-						# update the occupied map only if we are sure that there is an obstacle and sum is not zero
-						if occ_sum != 0.0 and (R < max_range - 0.3):
-							# normalizing the probability over all the cells
+						if occ_sum != 0.0 and (R < max_range - 0.35):
 							occ_kn = occ_kc / occ_sum
 							occ_kn = self.clamp(occ_kn, 0.0, 1.0)
 							occ_init = (occ_init + occ_kn) - (occ_init * occ_kn)
 							self._map_occupied.set(int(round(cell[0])), int(round(cell[1])), occ_init)
-					# setting the values for the combined map
 					if (occ_init >= emp_init):
-						self._map_combined.set(int(round(cell[0])), int(round(cell[1])), occ_init)
+					    self._map_combined.set(int(round(cell[0])), int(round(cell[1])), occ_init)
 					elif (occ_init < emp_init):
-						self._map_combined.set(int(round(cell[0])), int(round(cell[1])), -emp_init)
+					    self._map_combined.set(int(round(cell[0])), int(round(cell[1])), -emp_init)
 
 	def _er_free(self, sensed_distance, delta, uncertainty):
 		"""
@@ -222,8 +218,6 @@ class SonarMap:
 		#============================== YOUR CODE HERE ==============================
 		#Instructions: compute the distance probability function for the "probably
 		#              empty" region.
-
-		# computing the distance probability function for the "probably empty" region.
 		R = sensed_distance
 		sigma = uncertainty
 
@@ -262,8 +256,6 @@ class SonarMap:
 		#============================== YOUR CODE HERE ==============================
 		#Instructions: compute the distance probability function for the "probably
 		#              occupied" region.
-
-		# computing the distance probability function for the "probably occupied" region.
 		R = sensed_distance
 		sigma = uncertainty
 
@@ -297,8 +289,6 @@ class SonarMap:
 		#============================== YOUR CODE HERE ==============================
 		#Instructions: compute the angular probability function (it is same for both
 		#              the "probably empty" and the "probably occupied" region.
-		
-		# computing the angular probability function for both "probably empty" and "probably occupied" region.
 		if abs(theta) <= sonar_fov/2.0:
 			return 1 - (((2*theta)/sonar_fov))**2
 		else:

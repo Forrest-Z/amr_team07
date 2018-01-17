@@ -1,0 +1,22 @@
+actions: []
+authors: Alexander Hagg
+brief: ''
+bugtracker: ''
+depends:
+- catkin
+- roscpp
+- amr_stage
+- amr_msgs
+- visualization_msgs
+- rospy
+- amr_srvs
+- tf
+- amr_mapping
+description: amr_localization
+license: BSD
+maintainers: Alexander Hagg <alexander.hagg@inf.h-brs.de>
+msgs: []
+package_type: package
+repo_url: ''
+srvs: []
+url: ''

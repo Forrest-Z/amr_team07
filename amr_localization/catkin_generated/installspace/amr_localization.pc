@@ -1,0 +1,8 @@
+prefix=/home/kishaan/catkin_ws/install
+
+Name: amr_localization
+Description: Description of amr_localization
+Version: 1.0.0
+Cflags: 
+Libs: -L/home/kishaan/catkin_ws/install/lib 
+Requires: roscpp rospy tf visualization_msgs amr_msgs amr_srvs amr_stage amr_mapping
