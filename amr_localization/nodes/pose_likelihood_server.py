@@ -85,7 +85,7 @@ class PoseLikelihoodServerNode:
 					acceptable_matches = acceptable_matches + 1
 				else:
 					bad_matches = bad_matches + 1
-			# append the weight only if the number of bad matches is less than the acceptable number
+			# update the weight only if the number of bad matches is less than the acceptable number
 			if bad_matches < 5:
 				likelihood_list[p] = total_weight
 
