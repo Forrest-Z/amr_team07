@@ -57,7 +57,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
     args = parser.parse_args(rospy.myargv(sys.argv)[1:])
 
-    marker_pub = rospy.Publisher('pose_likelihood', Marker)
+    marker_pub = rospy.Publisher('pose_likelihood', Marker, queue_size = 50)
     get_pose_likelihood = rospy.ServiceProxy('pose_likelihood_server/'
                                              'get_pose_likelihood',
                                              GetMultiplePoseLikelihood)
